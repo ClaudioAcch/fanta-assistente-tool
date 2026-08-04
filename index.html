@@ -382,9 +382,10 @@
       <div class="row between">
         <strong>Aggiornamenti</strong>
       </div>
-      <div>"Aggiorna listone" scarica subito le ultime quotazioni pubblicate, senza uscire da questa pagina. "Aggiorna app" ricarica tutta l'app da zero: usalo se Claudio annuncia un aggiornamento e non lo vedi ancora riflesso.</div>
+      <div>"Aggiorna listone" e "Aggiorna presi" scaricano subito le ultime informazioni pubblicate, senza uscire da questa pagina. "Aggiorna app" ricarica tutta l'app da zero: usalo se Claudio annuncia un aggiornamento e non lo vedi ancora riflesso.</div>
       <div class="row" style="margin-top:6px;">
         <button class="small" id="btnAggiornaListone" style="background:#2ee6b8;color:#08281f;">↻ Aggiorna listone</button>
+        <button class="small" id="btnAggiornaPresi" style="background:#2ee6b8;color:#08281f;">↻ Aggiorna presi</button>
         <button class="small" id="btnAggiornaApp" style="background:#2ee6b8;color:#08281f;">⟳ Aggiorna app</button>
       </div>
     </div>
@@ -1397,6 +1398,23 @@ document.getElementById('btnImportaPresiTrigger').addEventListener('click', ()=>
   document.getElementById('fileImportPresi').click();
 });
 
+/* Nucleo condiviso del merge dei presi (unione, non sostituzione): usato sia
+   dall'import manuale via file sia dalla sincronizzazione automatica da GitHub
+   (vedi SYNC PRESI REMOTI piu' sotto) — stessa logica, un solo punto da mantenere.
+   Deliberatamente un'unione e non una sostituzione: un segno manuale di un
+   presidente (fatto guardando l'asta in diretta, prima ancora che Claudio esporti
+   il file ufficiale) non viene mai cancellato da un dato piu' vecchio o incompleto.
+   Il valore viene preservato cosi' com'e' (true = preso generico, 'recompra' =
+   preso in recompra, ecc.) cosi' da restare compatibile con qualunque fase
+   esporti il Fanta Asta Tool, senza dover ritoccare questa funzione. */
+function mergePresiUnione(nuoviPresi){
+  let aggiornati = 0;
+  Object.keys(nuoviPresi).forEach(id=>{
+    if(nuoviPresi[id]){ presi[id] = nuoviPresi[id]; aggiornati++; }
+  });
+  saveJSON(LS.presi, presi);
+  return aggiornati;
+}
 document.getElementById('fileImportPresi').addEventListener('change', (e)=>{
   const file = e.target.files[0];
   if(!file) return;
@@ -1408,19 +1426,9 @@ document.getElementById('fileImportPresi').addEventListener('change', (e)=>{
         toast('File non riconosciuto come lista giocatori presi');
         return;
       }
-      // Unione (non sostituzione): i presi importati si aggiungono/aggiornano
-      // a quelli già segnati in locale, senza cancellare nulla e senza
-      // toccare bozza, rosa o liste draft. Il valore viene preservato cosi'
-      // com'e' (true = preso generico, 'recompra' = preso in recompra) cosi'
-      // che funzioni gia' anche quando il Fanta Asta Tool iniziera' a esportare
-      // la fase, senza dover ritoccare questo import.
-      let aggiornati = 0;
-      Object.keys(dati.presi).forEach(id=>{
-        if(dati.presi[id]){ presi[id] = dati.presi[id]; aggiornati++; }
-      });
-      saveJSON(LS.presi, presi);
-      toast(`Giocatori presi aggiornati: ${aggiornati}`);
+      const aggiornati = mergePresiUnione(dati.presi);
       renderListone();
+      toast(`Giocatori presi aggiornati: ${aggiornati}`);
     }catch(err){
       toast('Errore nel file: ' + err.message);
     }
@@ -1500,6 +1508,55 @@ document.getElementById('btnAggiornaApp').addEventListener('click', ()=>{
   window.location.href = window.location.pathname + '?aggiornato=' + Date.now();
 });
 
+/* ================= SYNC PRESI REMOTI (automatico, silenzioso) =================
+   Gemella della sync del listone: a ogni apertura dell'app, cerca su GitHub il
+   file "presi" piu' recente (esportato dal Fanta Asta Tool con "Esporta giocatori
+   presi") e lo unisce (mai sostituisce) a quelli gia' segnati in locale — stessa
+   logica dell'import manuale, vedi mergePresiUnione() sopra. Deliberatamente
+   un'unione: un segno manuale di un presidente non viene mai cancellato da un
+   dato piu' vecchio o incompleto. Fallisce silenziosamente se GitHub non e'
+   raggiungibile o non c'e' ancora nessun file presi pubblicato. */
+async function trovaPresiPiuRecente(){
+  const res = await fetch('https://api.github.com/repos/' + GITHUB_REPO_LISTONE + '/contents/', { cache: 'no-store' });
+  if(!res.ok) throw new Error('elenco repository non disponibile');
+  const elenco = await res.json();
+  const candidati = elenco.filter(f => f.type === 'file' && /^giocatoripresi.*\.json$/i.test(f.name));
+  if(!candidati.length) throw new Error('nessun file presi trovato');
+
+  const risultati = await Promise.all(candidati.map(async f => {
+    try{
+      const r = await fetch(f.download_url + '?t=' + Date.now(), { cache: 'no-store' });
+      if(!r.ok) return null;
+      const dati = await r.json();
+      return { dati, quando: dati.esportatoIl ? new Date(dati.esportatoIl).getTime() : 0 };
+    }catch(e){ return null; }
+  }));
+
+  const validi = risultati.filter(Boolean);
+  if(!validi.length) throw new Error('nessun file presi leggibile');
+  validi.sort((a,b) => b.quando - a.quando);
+  return validi[0].dati;
+}
+async function sincronizzaPresiRemoti(){
+  try{
+    const dati = await trovaPresiPiuRecente();
+    if(!dati || !dati.presi || typeof dati.presi !== 'object') return false;
+    mergePresiUnione(dati.presi);
+    renderListone();
+    return true;
+  }catch(err){
+    return false;
+  }
+}
+document.getElementById('btnAggiornaPresi').addEventListener('click', async ()=>{
+  const btn = document.getElementById('btnAggiornaPresi');
+  const testoOriginale = btn.textContent;
+  btn.textContent = '⏳ Aggiorno...'; btn.disabled = true;
+  const ok = await sincronizzaPresiRemoti();
+  btn.textContent = testoOriginale; btn.disabled = false;
+  toast(ok ? 'Giocatori presi aggiornati con l\'ultima versione disponibile' : 'Nessun aggiornamento trovato (rete assente o nessun file presi pubblicato)');
+});
+
 /* ================= INIT ================= */
 renderListone();
 renderBozza();
@@ -1510,6 +1567,7 @@ if(!storageDisponibile){
   if(storageBanner) storageBanner.style.display = '';
 }
 sincronizzaListoneRemoto();
+sincronizzaPresiRemoti();
 </script>
 </body>
 </html>
