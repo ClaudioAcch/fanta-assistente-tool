@@ -380,6 +380,17 @@
 
     <div class="card import-box">
       <div class="row between">
+        <strong>Aggiornamenti</strong>
+      </div>
+      <div>"Aggiorna listone" scarica subito le ultime quotazioni pubblicate, senza uscire da questa pagina. "Aggiorna app" ricarica tutta l'app da zero: usalo se Claudio annuncia un aggiornamento e non lo vedi ancora riflesso.</div>
+      <div class="row" style="margin-top:6px;">
+        <button class="small" id="btnAggiornaListone" style="background:#2ee6b8;color:#08281f;">↻ Aggiorna listone</button>
+        <button class="small" id="btnAggiornaApp" style="background:#2ee6b8;color:#08281f;">⟳ Aggiorna app</button>
+      </div>
+    </div>
+
+    <div class="card import-box">
+      <div class="row between">
         <strong>Le mie scelte (backup)</strong>
       </div>
       <div>Salva bozza, rosa, giocatori "presi" e liste draft in un file, così puoi recuperarli se il telefono perdesse i dati salvati.</div>
@@ -1457,15 +1468,37 @@ async function trovaListonePiuRecente(){
 async function sincronizzaListoneRemoto(){
   try{
     const dati = await trovaListonePiuRecente();
-    if(!dati || !Array.isArray(dati.giocatori) || !dati.giocatori.length) return;
+    if(!dati || !Array.isArray(dati.giocatori) || !dati.giocatori.length) return false;
     mergeListonePerId(dati.giocatori);
     initSlider();
     renderListone();
+    return true;
   }catch(err){
     // nessuna connessione, API non raggiungibile, o repo senza file listone ancora:
     // resta valido il listone gia' presente in locale, nessun errore mostrato al presidente
+    return false;
   }
 }
+
+/* Bottoni manuali in Gestione ("zona admin"): a differenza della sync automatica e
+   silenziosa all'avvio, qui il presidente ha chiesto esplicitamente l'aggiornamento,
+   quindi mostriamo sempre un riscontro a video (successo o meno). */
+document.getElementById('btnAggiornaListone').addEventListener('click', async ()=>{
+  const btn = document.getElementById('btnAggiornaListone');
+  const testoOriginale = btn.textContent;
+  btn.textContent = '⏳ Aggiorno...'; btn.disabled = true;
+  const ok = await sincronizzaListoneRemoto();
+  btn.textContent = testoOriginale; btn.disabled = false;
+  toast(ok ? 'Listone aggiornato con l\'ultima versione disponibile' : 'Nessun aggiornamento trovato (rete assente o nessun listone pubblicato)');
+});
+document.getElementById('btnAggiornaApp').addEventListener('click', ()=>{
+  // Ricarica la pagina forzando il bypass della cache del browser (parametro variabile
+  // nell'URL), cosi' anche un'app rimasta aperta/sospesa scarica davvero l'ultima versione
+  // pubblicata invece di continuare a usare il codice gia' caricato in memoria. Le scelte
+  // salvate (Bozza/Rosa/Presi/liste draft) restano intatte: vivono nel localStorage del
+  // dispositivo, non nella pagina, quindi un reload non le tocca.
+  window.location.href = window.location.pathname + '?aggiornato=' + Date.now();
+});
 
 /* ================= INIT ================= */
 renderListone();
