@@ -1,0 +1,4849 @@
+{
+  "tipo": "stato-asta-pubblico",
+  "versione": 1,
+  "esportatoIl": "2026-08-06T09:36:05.473Z",
+  "news": "Draft in corso",
+  "fase": "draft",
+  "faseLabel": "Draft",
+  "giro": 1,
+  "fascia": {
+    "label": "Oltre 30",
+    "soglia": null
+  },
+  "listoneRiepilogo": {
+    "totale": 494,
+    "presi": 69,
+    "liberi": 425
+  },
+  "liberi": [
+    {
+      "id": 2134,
+      "nome": "Falcone",
+      "ruolo": "Por",
+      "squadraReale": "Lecce",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 6462,
+      "nome": "Okoye",
+      "ruolo": "Por",
+      "squadraReale": "Udinese",
+      "quotazione": 9,
+      "u23": false
+    },
+    {
+      "id": 2521,
+      "nome": "De Gea",
+      "ruolo": "Por",
+      "squadraReale": "Fiorentina",
+      "quotazione": 13,
+      "u23": false
+    },
+    {
+      "id": 133,
+      "nome": "Skorupski",
+      "ruolo": "Por",
+      "squadraReale": "Bologna",
+      "quotazione": 10,
+      "u23": false
+    },
+    {
+      "id": 2814,
+      "nome": "Provedel",
+      "ruolo": "Por",
+      "squadraReale": "Inter",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 6641,
+      "nome": "Suzuki",
+      "ruolo": "Por",
+      "squadraReale": "Parma",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 4236,
+      "nome": "Muric",
+      "ruolo": "Por",
+      "squadraReale": "Sassuolo",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 7332,
+      "nome": "Bijlow",
+      "ruolo": "Por",
+      "squadraReale": "Genoa",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 6662,
+      "nome": "Corvi",
+      "ruolo": "Por",
+      "squadraReale": "Parma",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 5320,
+      "nome": "Paleari",
+      "ruolo": "Por",
+      "squadraReale": "Torino",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 218,
+      "nome": "Perin",
+      "ruolo": "Por",
+      "squadraReale": "Juventus",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 4867,
+      "nome": "Turati",
+      "ruolo": "Por",
+      "squadraReale": "Sassuolo",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7172,
+      "nome": "Pessina Mas.",
+      "ruolo": "Por",
+      "squadraReale": "Bologna",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 7337,
+      "nome": "Motta",
+      "ruolo": "Por",
+      "squadraReale": "Lazio",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 6403,
+      "nome": "Christensen O.",
+      "ruolo": "Por",
+      "squadraReale": "Fiorentina",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 2297,
+      "nome": "Rossi F.",
+      "ruolo": "Por",
+      "squadraReale": "Atalanta",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 4,
+      "nome": "Sportiello",
+      "ruolo": "Por",
+      "squadraReale": "Atalanta",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 4929,
+      "nome": "Ciocci",
+      "ruolo": "Por",
+      "squadraReale": "Cagliari",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 2809,
+      "nome": "Vigorito",
+      "ruolo": "Por",
+      "squadraReale": "Como",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 219,
+      "nome": "Sommariva",
+      "ruolo": "Por",
+      "squadraReale": "Genoa",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 1926,
+      "nome": "Di Gennaro",
+      "ruolo": "Por",
+      "squadraReale": "Inter",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 1930,
+      "nome": "Pinsoglio",
+      "ruolo": "Por",
+      "squadraReale": "Juventus",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 2401,
+      "nome": "Fruchtl",
+      "ruolo": "Por",
+      "squadraReale": "Lecce",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 6523,
+      "nome": "Samooja",
+      "ruolo": "Por",
+      "squadraReale": "Lecce",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 2815,
+      "nome": "Terracciano",
+      "ruolo": "Por",
+      "squadraReale": "Milan",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 6813,
+      "nome": "Torriani",
+      "ruolo": "Por",
+      "squadraReale": "Milan",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 2845,
+      "nome": "Contini",
+      "ruolo": "Por",
+      "squadraReale": "Napoli",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 610,
+      "nome": "Gollini",
+      "ruolo": "Por",
+      "squadraReale": "Roma",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 543,
+      "nome": "Padelli",
+      "ruolo": "Por",
+      "squadraReale": "Udinese",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 158,
+      "nome": "Lezzerini",
+      "ruolo": "Por",
+      "squadraReale": "Fiorentina",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7301,
+      "nome": "Tornqvist",
+      "ruolo": "Por",
+      "squadraReale": "Como",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 6650,
+      "nome": "Sherri",
+      "ruolo": "Por",
+      "squadraReale": "Cagliari",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7363,
+      "nome": "Siviero",
+      "ruolo": "Por",
+      "squadraReale": "Torino",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 2788,
+      "nome": "Bremer",
+      "ruolo": "Dc",
+      "squadraReale": "Juventus",
+      "quotazione": 15,
+      "u23": false
+    },
+    {
+      "id": 6893,
+      "nome": "Kempf",
+      "ruolo": "Dc",
+      "squadraReale": "Como",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 1852,
+      "nome": "Spinazzola",
+      "ruolo": "Ds;E",
+      "squadraReale": "Napoli",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 5526,
+      "nome": "Scalvini",
+      "ruolo": "Dc",
+      "squadraReale": "Atalanta",
+      "quotazione": 10,
+      "u23": true
+    },
+    {
+      "id": 6217,
+      "nome": "Bisseck",
+      "ruolo": "Dc",
+      "squadraReale": "Inter",
+      "quotazione": 11,
+      "u23": false
+    },
+    {
+      "id": 2296,
+      "nome": "Mancini",
+      "ruolo": "Dc",
+      "squadraReale": "Roma",
+      "quotazione": 15,
+      "u23": false
+    },
+    {
+      "id": 5750,
+      "nome": "Ostigard",
+      "ruolo": "Dc",
+      "squadraReale": "Genoa",
+      "quotazione": 11,
+      "u23": false
+    },
+    {
+      "id": 4976,
+      "nome": "Kalulu",
+      "ruolo": "Dd;Dc",
+      "squadraReale": "Juventus",
+      "quotazione": 14,
+      "u23": false
+    },
+    {
+      "id": 4657,
+      "nome": "Celik",
+      "ruolo": "B;Dd;E",
+      "squadraReale": "Juventus",
+      "quotazione": 9,
+      "u23": false
+    },
+    {
+      "id": 6956,
+      "nome": "Solet",
+      "ruolo": "Dc",
+      "squadraReale": "Udinese",
+      "quotazione": 13,
+      "u23": false
+    },
+    {
+      "id": 2120,
+      "nome": "Bastoni",
+      "ruolo": "Dc",
+      "squadraReale": "Inter",
+      "quotazione": 14,
+      "u23": false
+    },
+    {
+      "id": 4807,
+      "nome": "Hermoso",
+      "ruolo": "Dc",
+      "squadraReale": "Roma",
+      "quotazione": 10,
+      "u23": false
+    },
+    {
+      "id": 6986,
+      "nome": "Rensch",
+      "ruolo": "B;Dd;E",
+      "squadraReale": "Roma",
+      "quotazione": 6,
+      "u23": true
+    },
+    {
+      "id": 4159,
+      "nome": "Akanji",
+      "ruolo": "Dc",
+      "squadraReale": "Inter",
+      "quotazione": 16,
+      "u23": false
+    },
+    {
+      "id": 554,
+      "nome": "Zappacosta",
+      "ruolo": "Dd;E",
+      "squadraReale": "Atalanta",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 4317,
+      "nome": "N'Dicka",
+      "ruolo": "Dc",
+      "squadraReale": "Roma",
+      "quotazione": 13,
+      "u23": false
+    },
+    {
+      "id": 5514,
+      "nome": "Vasquez",
+      "ruolo": "Ds;Dc",
+      "squadraReale": "Genoa",
+      "quotazione": 10,
+      "u23": false
+    },
+    {
+      "id": 4409,
+      "nome": "Rrahmani",
+      "ruolo": "Dc",
+      "squadraReale": "Napoli",
+      "quotazione": 14,
+      "u23": false
+    },
+    {
+      "id": 5862,
+      "nome": "Valeri",
+      "ruolo": "Ds;E",
+      "squadraReale": "Parma",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 6485,
+      "nome": "Kristensen T.",
+      "ruolo": "Dd;Dc",
+      "squadraReale": "Udinese",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 7211,
+      "nome": "Athekame",
+      "ruolo": "Dd;E",
+      "squadraReale": "Milan",
+      "quotazione": 3,
+      "u23": true
+    },
+    {
+      "id": 5678,
+      "nome": "Holm",
+      "ruolo": "Dd;E",
+      "squadraReale": "Bologna",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 4994,
+      "nome": "Vojvoda",
+      "ruolo": "Dd;E",
+      "squadraReale": "Udinese",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 6867,
+      "nome": "Valle",
+      "ruolo": "Ds;E",
+      "squadraReale": "Como",
+      "quotazione": 6,
+      "u23": true
+    },
+    {
+      "id": 5885,
+      "nome": "Dodò",
+      "ruolo": "Dd;E",
+      "squadraReale": "Fiorentina",
+      "quotazione": 10,
+      "u23": false
+    },
+    {
+      "id": 2593,
+      "nome": "Martin",
+      "ruolo": "Ds;E",
+      "squadraReale": "Genoa",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 5877,
+      "nome": "Carlos Augusto",
+      "ruolo": "B;Ds;E",
+      "squadraReale": "Inter",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 6989,
+      "nome": "Tiago Gabriel",
+      "ruolo": "Dc",
+      "squadraReale": "Lecce",
+      "quotazione": 7,
+      "u23": true
+    },
+    {
+      "id": 4502,
+      "nome": "Gallo",
+      "ruolo": "Ds;E",
+      "squadraReale": "Lecce",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 6496,
+      "nome": "Bartesaghi",
+      "ruolo": "Ds;E",
+      "squadraReale": "Milan",
+      "quotazione": 8,
+      "u23": true
+    },
+    {
+      "id": 2816,
+      "nome": "Di Lorenzo",
+      "ruolo": "Dd;E",
+      "squadraReale": "Napoli",
+      "quotazione": 12,
+      "u23": false
+    },
+    {
+      "id": 4263,
+      "nome": "Kabasele",
+      "ruolo": "Dc",
+      "squadraReale": "Udinese",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 6869,
+      "nome": "Ramon",
+      "ruolo": "Dc",
+      "squadraReale": "Como",
+      "quotazione": 10,
+      "u23": true
+    },
+    {
+      "id": 4210,
+      "nome": "Mina",
+      "ruolo": "Dc",
+      "squadraReale": "Cagliari",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 5520,
+      "nome": "Cambiaso",
+      "ruolo": "Dd;Ds;E",
+      "squadraReale": "Juventus",
+      "quotazione": 10,
+      "u23": false
+    },
+    {
+      "id": 6642,
+      "nome": "Coco",
+      "ruolo": "Dc",
+      "squadraReale": "Torino",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 7219,
+      "nome": "Bernasconi",
+      "ruolo": "Ds;E",
+      "squadraReale": "Atalanta",
+      "quotazione": 6,
+      "u23": true
+    },
+    {
+      "id": 4433,
+      "nome": "Zortea",
+      "ruolo": "Dd;E",
+      "squadraReale": "Bologna",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 460,
+      "nome": "Romagnoli",
+      "ruolo": "Dc",
+      "squadraReale": "Lazio",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 2188,
+      "nome": "Marusic",
+      "ruolo": "Dd;Ds;E",
+      "squadraReale": "Lazio",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 4751,
+      "nome": "Tomori",
+      "ruolo": "Dc",
+      "squadraReale": "Milan",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 2724,
+      "nome": "Buongiorno",
+      "ruolo": "Dc",
+      "squadraReale": "Napoli",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 6663,
+      "nome": "Circati",
+      "ruolo": "Dc",
+      "squadraReale": "Parma",
+      "quotazione": 6,
+      "u23": true
+    },
+    {
+      "id": 6631,
+      "nome": "Ghilardi",
+      "ruolo": "Dc",
+      "squadraReale": "Roma",
+      "quotazione": 4,
+      "u23": true
+    },
+    {
+      "id": 6672,
+      "nome": "Idzes",
+      "ruolo": "Dc",
+      "squadraReale": "Sassuolo",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 787,
+      "nome": "Djimsiti",
+      "ruolo": "Dc",
+      "squadraReale": "Atalanta",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 2640,
+      "nome": "Kolasinac",
+      "ruolo": "Ds;Dc",
+      "squadraReale": "Atalanta",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 6042,
+      "nome": "Lucumì",
+      "ruolo": "Dc",
+      "squadraReale": "Bologna",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 5701,
+      "nome": "Obert",
+      "ruolo": "B;Ds;E",
+      "squadraReale": "Cagliari",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 6660,
+      "nome": "Marcandalli",
+      "ruolo": "Dc",
+      "squadraReale": "Genoa",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 6814,
+      "nome": "Norton-Cuffy",
+      "ruolo": "Dd;E",
+      "squadraReale": "Genoa",
+      "quotazione": 8,
+      "u23": true
+    },
+    {
+      "id": 7012,
+      "nome": "Provstgaard",
+      "ruolo": "Dc",
+      "squadraReale": "Lazio",
+      "quotazione": 3,
+      "u23": true
+    },
+    {
+      "id": 4772,
+      "nome": "Angelino",
+      "ruolo": "E",
+      "squadraReale": "Roma",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 6426,
+      "nome": "Pedersen",
+      "ruolo": "Dd;E",
+      "squadraReale": "Torino",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 5578,
+      "nome": "Kossounou",
+      "ruolo": "Dd;Dc",
+      "squadraReale": "Atalanta",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 4887,
+      "nome": "Bellanova",
+      "ruolo": "Dd;E",
+      "squadraReale": "Atalanta",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 7014,
+      "nome": "Smolcic I.",
+      "ruolo": "Dd;E",
+      "squadraReale": "Como",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 4378,
+      "nome": "Ranieri L.",
+      "ruolo": "Ds;Dc",
+      "squadraReale": "Fiorentina",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 5449,
+      "nome": "Parisi",
+      "ruolo": "Ds;E",
+      "squadraReale": "Fiorentina",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 5739,
+      "nome": "De Winter",
+      "ruolo": "Dd;Dc",
+      "squadraReale": "Milan",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 6039,
+      "nome": "Cabal",
+      "ruolo": "B;Ds;E",
+      "squadraReale": "Juventus",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7175,
+      "nome": "Joao Mario",
+      "ruolo": "Dd;E",
+      "squadraReale": "Fiorentina",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 5620,
+      "nome": "Tavares N.",
+      "ruolo": "Ds;E",
+      "squadraReale": "Lazio",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 5527,
+      "nome": "Zanoli",
+      "ruolo": "Dd;E",
+      "squadraReale": "Udinese",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 5010,
+      "nome": "Ismajli",
+      "ruolo": "Dc",
+      "squadraReale": "Torino",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 5555,
+      "nome": "Kamara H.",
+      "ruolo": "Ds;E",
+      "squadraReale": "Udinese",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 7240,
+      "nome": "Siebert",
+      "ruolo": "Dc",
+      "squadraReale": "Lecce",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 7125,
+      "nome": "Idrissi R.",
+      "ruolo": "Ds;E",
+      "squadraReale": "Cagliari",
+      "quotazione": 3,
+      "u23": true
+    },
+    {
+      "id": 6896,
+      "nome": "Van Der Brempt",
+      "ruolo": "Dd;E",
+      "squadraReale": "Como",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 7131,
+      "nome": "Floriani Mussolini",
+      "ruolo": "Dd;E",
+      "squadraReale": "Lazio",
+      "quotazione": 3,
+      "u23": true
+    },
+    {
+      "id": 5603,
+      "nome": "Pongracic",
+      "ruolo": "Dc",
+      "squadraReale": "Fiorentina",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 2728,
+      "nome": "Pellegrini Lu.",
+      "ruolo": "Ds;E",
+      "squadraReale": "Lazio",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 4401,
+      "nome": "Gabbia",
+      "ruolo": "Dc",
+      "squadraReale": "Milan",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 5840,
+      "nome": "Olivera",
+      "ruolo": "B;Ds;E",
+      "squadraReale": "Napoli",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 5307,
+      "nome": "Valenti",
+      "ruolo": "Dc",
+      "squadraReale": "Parma",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 4374,
+      "nome": "Walukiewicz",
+      "ruolo": "Dd;Dc",
+      "squadraReale": "Sassuolo",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 5820,
+      "nome": "Bertola",
+      "ruolo": "Dd;Ds;Dc",
+      "squadraReale": "Udinese",
+      "quotazione": 6,
+      "u23": true
+    },
+    {
+      "id": 5994,
+      "nome": "Ebosse",
+      "ruolo": "Ds;Dc",
+      "squadraReale": "Udinese",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 7235,
+      "nome": "Troilo",
+      "ruolo": "Dc",
+      "squadraReale": "Parma",
+      "quotazione": 3,
+      "u23": true
+    },
+    {
+      "id": 7274,
+      "nome": "Zè Pedro",
+      "ruolo": "Dd;Dc",
+      "squadraReale": "Cagliari",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 6495,
+      "nome": "Comuzzo",
+      "ruolo": "Dc",
+      "squadraReale": "Torino",
+      "quotazione": 6,
+      "u23": true
+    },
+    {
+      "id": 5481,
+      "nome": "Mazzocchi",
+      "ruolo": "Dd;Ds;E",
+      "squadraReale": "Napoli",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 5851,
+      "nome": "Doig",
+      "ruolo": "Ds;E",
+      "squadraReale": "Sassuolo",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 7212,
+      "nome": "Heggem",
+      "ruolo": "Ds;Dc",
+      "squadraReale": "Bologna",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 7255,
+      "nome": "Britschgi",
+      "ruolo": "Dd;Ds;E",
+      "squadraReale": "Parma",
+      "quotazione": 4,
+      "u23": true
+    },
+    {
+      "id": 7268,
+      "nome": "Rodriguez Ju.",
+      "ruolo": "Ds;Dc",
+      "squadraReale": "Cagliari",
+      "quotazione": 4,
+      "u23": true
+    },
+    {
+      "id": 487,
+      "nome": "De Silvestri",
+      "ruolo": "Dd;E",
+      "squadraReale": "Bologna",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 791,
+      "nome": "Sabelli",
+      "ruolo": "Dd;Ds;E",
+      "squadraReale": "Genoa",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 327,
+      "nome": "Patric",
+      "ruolo": "Dd;Dc",
+      "squadraReale": "Lazio",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 2263,
+      "nome": "Lazzari",
+      "ruolo": "Dd;E",
+      "squadraReale": "Lazio",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 7253,
+      "nome": "Bella-Kotchap",
+      "ruolo": "Dc",
+      "squadraReale": "Venezia",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 6149,
+      "nome": "Carboni F.",
+      "ruolo": "Ds;E",
+      "squadraReale": "Parma",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 6977,
+      "nome": "Otoa",
+      "ruolo": "Dc",
+      "squadraReale": "Genoa",
+      "quotazione": 2,
+      "u23": true
+    },
+    {
+      "id": 294,
+      "nome": "Rugani",
+      "ruolo": "Dc",
+      "squadraReale": "Juventus",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 6632,
+      "nome": "Gaspar K.",
+      "ruolo": "Dc",
+      "squadraReale": "Lecce",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 6883,
+      "nome": "Jean",
+      "ruolo": "Dc",
+      "squadraReale": "Lecce",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 5273,
+      "nome": "Estupinan",
+      "ruolo": "Ds;E",
+      "squadraReale": "Milan",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 252,
+      "nome": "Biraghi",
+      "ruolo": "B;Ds;E",
+      "squadraReale": "Torino",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 7202,
+      "nome": "Ndiaye",
+      "ruolo": "Dc",
+      "squadraReale": "Parma",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7260,
+      "nome": "Ziolkowski",
+      "ruolo": "Dc",
+      "squadraReale": "Roma",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 7312,
+      "nome": "Arizala",
+      "ruolo": "Ds;E",
+      "squadraReale": "Udinese",
+      "quotazione": 4,
+      "u23": true
+    },
+    {
+      "id": 7326,
+      "nome": "Helland",
+      "ruolo": "Dd;Dc",
+      "squadraReale": "Bologna",
+      "quotazione": 2,
+      "u23": true
+    },
+    {
+      "id": 7356,
+      "nome": "Mlacic",
+      "ruolo": "Dc",
+      "squadraReale": "Udinese",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 5498,
+      "nome": "Casale",
+      "ruolo": "Dc",
+      "squadraReale": "Bologna",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 418,
+      "nome": "Goldaniga",
+      "ruolo": "Dc",
+      "squadraReale": "Como",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7164,
+      "nome": "Perez M.",
+      "ruolo": "Dd;Dc",
+      "squadraReale": "Lecce",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 7182,
+      "nome": "Ndaba",
+      "ruolo": "Ds;E",
+      "squadraReale": "Lecce",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7156,
+      "nome": "Pieragnolo",
+      "ruolo": "Ds;E",
+      "squadraReale": "Sassuolo",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 6985,
+      "nome": "Candè",
+      "ruolo": "Ds;Dc",
+      "squadraReale": "Sassuolo",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 7238,
+      "nome": "Kouadio",
+      "ruolo": "Dd;Dc",
+      "squadraReale": "Monza",
+      "quotazione": 3,
+      "u23": true
+    },
+    {
+      "id": 7346,
+      "nome": "Raterink",
+      "ruolo": "Dd;E",
+      "squadraReale": "Cagliari",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 2517,
+      "nome": "De Bruyne",
+      "ruolo": "T",
+      "squadraReale": "Napoli",
+      "quotazione": 14,
+      "u23": false
+    },
+    {
+      "id": 5559,
+      "nome": "Da Cunha",
+      "ruolo": "C;T",
+      "squadraReale": "Como",
+      "quotazione": 18,
+      "u23": false
+    },
+    {
+      "id": 152,
+      "nome": "Zielinski",
+      "ruolo": "C",
+      "squadraReale": "Inter",
+      "quotazione": 10,
+      "u23": false
+    },
+    {
+      "id": 2766,
+      "nome": "Zaniolo",
+      "ruolo": "T;A",
+      "squadraReale": "Udinese",
+      "quotazione": 17,
+      "u23": false
+    },
+    {
+      "id": 4973,
+      "nome": "McKennie",
+      "ruolo": "C",
+      "squadraReale": "Juventus",
+      "quotazione": 17,
+      "u23": false
+    },
+    {
+      "id": 6884,
+      "nome": "Conceicao",
+      "ruolo": "W;A",
+      "squadraReale": "Juventus",
+      "quotazione": 11,
+      "u23": false
+    },
+    {
+      "id": 2606,
+      "nome": "Modric",
+      "ruolo": "M;C",
+      "squadraReale": "Milan",
+      "quotazione": 13,
+      "u23": false
+    },
+    {
+      "id": 1933,
+      "nome": "Mandragora",
+      "ruolo": "C",
+      "squadraReale": "Fiorentina",
+      "quotazione": 9,
+      "u23": false
+    },
+    {
+      "id": 6717,
+      "nome": "Konè I.",
+      "ruolo": "C",
+      "squadraReale": "Sassuolo",
+      "quotazione": 9,
+      "u23": false
+    },
+    {
+      "id": 5687,
+      "nome": "Vlasic",
+      "ruolo": "T",
+      "squadraReale": "Torino",
+      "quotazione": 13,
+      "u23": false
+    },
+    {
+      "id": 6151,
+      "nome": "Perrone",
+      "ruolo": "M;C",
+      "squadraReale": "Como",
+      "quotazione": 11,
+      "u23": true
+    },
+    {
+      "id": 4970,
+      "nome": "Messias",
+      "ruolo": "W;T",
+      "squadraReale": "Genoa",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 6398,
+      "nome": "Isaksen",
+      "ruolo": "W;A",
+      "squadraReale": "Lazio",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 4220,
+      "nome": "Zambo Anguissa",
+      "ruolo": "C",
+      "squadraReale": "Napoli",
+      "quotazione": 11,
+      "u23": false
+    },
+    {
+      "id": 6666,
+      "nome": "Bernabè",
+      "ruolo": "C",
+      "squadraReale": "Parma",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 5844,
+      "nome": "Thorstvedt",
+      "ruolo": "C;T",
+      "squadraReale": "Sassuolo",
+      "quotazione": 10,
+      "u23": false
+    },
+    {
+      "id": 6844,
+      "nome": "Rowe",
+      "ruolo": "W;T",
+      "squadraReale": "Bologna",
+      "quotazione": 11,
+      "u23": true
+    },
+    {
+      "id": 5422,
+      "nome": "Zalewski",
+      "ruolo": "W",
+      "squadraReale": "Atalanta",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 2529,
+      "nome": "Mkhitaryan",
+      "ruolo": "C",
+      "squadraReale": "Inter",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 5562,
+      "nome": "Thuram K.",
+      "ruolo": "C",
+      "squadraReale": "Juventus",
+      "quotazione": 10,
+      "u23": false
+    },
+    {
+      "id": 6684,
+      "nome": "Ekkelenkamp",
+      "ruolo": "C;T",
+      "squadraReale": "Udinese",
+      "quotazione": 10,
+      "u23": false
+    },
+    {
+      "id": 7314,
+      "nome": "Taylor K.",
+      "ruolo": "C;T",
+      "squadraReale": "Lazio",
+      "quotazione": 13,
+      "u23": false
+    },
+    {
+      "id": 5792,
+      "nome": "Ederson D.S.",
+      "ruolo": "M;C",
+      "squadraReale": "Atalanta",
+      "quotazione": 13,
+      "u23": false
+    },
+    {
+      "id": 184,
+      "nome": "Bernardeschi",
+      "ruolo": "W;T",
+      "squadraReale": "Bologna",
+      "quotazione": 9,
+      "u23": false
+    },
+    {
+      "id": 2765,
+      "nome": "Odgaard",
+      "ruolo": "T",
+      "squadraReale": "Bologna",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 4364,
+      "nome": "Gaetano",
+      "ruolo": "M;C",
+      "squadraReale": "Atalanta",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 5036,
+      "nome": "Caqueret",
+      "ruolo": "C;T",
+      "squadraReale": "Como",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 5800,
+      "nome": "Gudmundsson A.",
+      "ruolo": "T;A",
+      "squadraReale": "Fiorentina",
+      "quotazione": 12,
+      "u23": false
+    },
+    {
+      "id": 5504,
+      "nome": "Coulibaly L.",
+      "ruolo": "M;C",
+      "squadraReale": "Lecce",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 536,
+      "nome": "Politano",
+      "ruolo": "W",
+      "squadraReale": "Napoli",
+      "quotazione": 9,
+      "u23": false
+    },
+    {
+      "id": 779,
+      "nome": "Cristante",
+      "ruolo": "M;C",
+      "squadraReale": "Roma",
+      "quotazione": 9,
+      "u23": false
+    },
+    {
+      "id": 5589,
+      "nome": "Konè M.",
+      "ruolo": "M;C",
+      "squadraReale": "Roma",
+      "quotazione": 11,
+      "u23": false
+    },
+    {
+      "id": 5888,
+      "nome": "Casadei",
+      "ruolo": "C;T",
+      "squadraReale": "Torino",
+      "quotazione": 10,
+      "u23": true
+    },
+    {
+      "id": 2077,
+      "nome": "Pasalic",
+      "ruolo": "C;T",
+      "squadraReale": "Atalanta",
+      "quotazione": 9,
+      "u23": false
+    },
+    {
+      "id": 827,
+      "nome": "Locatelli",
+      "ruolo": "M;C",
+      "squadraReale": "Juventus",
+      "quotazione": 9,
+      "u23": false
+    },
+    {
+      "id": 7351,
+      "nome": "Santos A.",
+      "ruolo": "W;A",
+      "squadraReale": "Napoli",
+      "quotazione": 15,
+      "u23": false
+    },
+    {
+      "id": 333,
+      "nome": "Cataldi",
+      "ruolo": "M;C",
+      "squadraReale": "Lazio",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 5674,
+      "nome": "Basic",
+      "ruolo": "M;C",
+      "squadraReale": "Venezia",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 5453,
+      "nome": "Ricci S.",
+      "ruolo": "M;C",
+      "squadraReale": "Milan",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 6898,
+      "nome": "Keita M.",
+      "ruolo": "M;C",
+      "squadraReale": "Parma",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 4947,
+      "nome": "Brescianini",
+      "ruolo": "C;T",
+      "squadraReale": "Fiorentina",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 4686,
+      "nome": "Fofana Y.",
+      "ruolo": "M;C",
+      "squadraReale": "Milan",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 4199,
+      "nome": "Loftus-Cheek",
+      "ruolo": "C;T",
+      "squadraReale": "Milan",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 4287,
+      "nome": "Lobotka",
+      "ruolo": "M;C",
+      "squadraReale": "Napoli",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 6831,
+      "nome": "Neres",
+      "ruolo": "W;A",
+      "squadraReale": "Napoli",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 22,
+      "nome": "De Roon",
+      "ruolo": "M;C",
+      "squadraReale": "Atalanta",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 5119,
+      "nome": "Samardzic",
+      "ruolo": "C;T",
+      "squadraReale": "Atalanta",
+      "quotazione": 12,
+      "u23": false
+    },
+    {
+      "id": 6054,
+      "nome": "Moro N.",
+      "ruolo": "M;C",
+      "squadraReale": "Bologna",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 6294,
+      "nome": "Ndour",
+      "ruolo": "C",
+      "squadraReale": "Fiorentina",
+      "quotazione": 8,
+      "u23": true
+    },
+    {
+      "id": 5791,
+      "nome": "Frendrup",
+      "ruolo": "M;C",
+      "squadraReale": "Genoa",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 5823,
+      "nome": "Baldanzi",
+      "ruolo": "T",
+      "squadraReale": "Genoa",
+      "quotazione": 10,
+      "u23": true
+    },
+    {
+      "id": 6680,
+      "nome": "Karlstrom",
+      "ruolo": "M;C",
+      "squadraReale": "Udinese",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 5761,
+      "nome": "Zhegrova",
+      "ruolo": "W",
+      "squadraReale": "Juventus",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 7318,
+      "nome": "Gandelman",
+      "ruolo": "C;T",
+      "squadraReale": "Lecce",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 5298,
+      "nome": "Pobega",
+      "ruolo": "M;C",
+      "squadraReale": "Bologna",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 4870,
+      "nome": "Adopo",
+      "ruolo": "M;C",
+      "squadraReale": "Cagliari",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 6020,
+      "nome": "Ellertsson",
+      "ruolo": "E;C",
+      "squadraReale": "Genoa",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 5301,
+      "nome": "Luis Henrique",
+      "ruolo": "E;W",
+      "squadraReale": "Inter",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 6271,
+      "nome": "El Aynaoui",
+      "ruolo": "M;C",
+      "squadraReale": "Roma",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 6815,
+      "nome": "Fadera",
+      "ruolo": "W",
+      "squadraReale": "Como",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 7223,
+      "nome": "Vergara",
+      "ruolo": "W;T",
+      "squadraReale": "Napoli",
+      "quotazione": 8,
+      "u23": true
+    },
+    {
+      "id": 2528,
+      "nome": "Matic",
+      "ruolo": "M;C",
+      "squadraReale": "Sassuolo",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 4349,
+      "nome": "Nicolussi Caviglia",
+      "ruolo": "M;C",
+      "squadraReale": "Parma",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 6424,
+      "nome": "Prati",
+      "ruolo": "M;C",
+      "squadraReale": "Cagliari",
+      "quotazione": 4,
+      "u23": true
+    },
+    {
+      "id": 6640,
+      "nome": "Felici",
+      "ruolo": "W",
+      "squadraReale": "Cagliari",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 5813,
+      "nome": "Miretti",
+      "ruolo": "C;T",
+      "squadraReale": "Juventus",
+      "quotazione": 3,
+      "u23": true
+    },
+    {
+      "id": 6015,
+      "nome": "Berisha M.",
+      "ruolo": "C;T",
+      "squadraReale": "Lecce",
+      "quotazione": 5,
+      "u23": true
+    },
+    {
+      "id": 6549,
+      "nome": "Pierotti",
+      "ruolo": "W",
+      "squadraReale": "Lecce",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 5131,
+      "nome": "Gilmour",
+      "ruolo": "M;C",
+      "squadraReale": "Napoli",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 6170,
+      "nome": "Gineitis",
+      "ruolo": "M;C",
+      "squadraReale": "Torino",
+      "quotazione": 6,
+      "u23": true
+    },
+    {
+      "id": 7198,
+      "nome": "Piotrowski",
+      "ruolo": "M;C",
+      "squadraReale": "Udinese",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 7208,
+      "nome": "Miller L.",
+      "ruolo": "M;C",
+      "squadraReale": "Udinese",
+      "quotazione": 3,
+      "u23": true
+    },
+    {
+      "id": 7209,
+      "nome": "Sorensen O.",
+      "ruolo": "C",
+      "squadraReale": "Parma",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 6274,
+      "nome": "Diouf",
+      "ruolo": "E;C",
+      "squadraReale": "Inter",
+      "quotazione": 9,
+      "u23": true
+    },
+    {
+      "id": 6024,
+      "nome": "Sulemana I.",
+      "ruolo": "M;C",
+      "squadraReale": "Atalanta",
+      "quotazione": 3,
+      "u23": true
+    },
+    {
+      "id": 6206,
+      "nome": "Fabbian",
+      "ruolo": "C;T",
+      "squadraReale": "Fiorentina",
+      "quotazione": 4,
+      "u23": true
+    },
+    {
+      "id": 1871,
+      "nome": "Deiola",
+      "ruolo": "M;C",
+      "squadraReale": "Cagliari",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 6629,
+      "nome": "Dele-Bashiru",
+      "ruolo": "C;T",
+      "squadraReale": "Lazio",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 5998,
+      "nome": "Zerbin",
+      "ruolo": "W",
+      "squadraReale": "Frosinone",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 7138,
+      "nome": "Ordonez C.",
+      "ruolo": "M;C",
+      "squadraReale": "Parma",
+      "quotazione": 2,
+      "u23": true
+    },
+    {
+      "id": 6246,
+      "nome": "Lipani",
+      "ruolo": "M;C",
+      "squadraReale": "Sassuolo",
+      "quotazione": 2,
+      "u23": true
+    },
+    {
+      "id": 5858,
+      "nome": "Ferguson",
+      "ruolo": "M;C",
+      "squadraReale": "Bologna",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 6917,
+      "nome": "Masini",
+      "ruolo": "M;C",
+      "squadraReale": "Genoa",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 5457,
+      "nome": "Maleh",
+      "ruolo": "M;C",
+      "squadraReale": "Lecce",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 5295,
+      "nome": "Musah",
+      "ruolo": "C;W",
+      "squadraReale": "Milan",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 6593,
+      "nome": "Akinsanmiro",
+      "ruolo": "C",
+      "squadraReale": "Monza",
+      "quotazione": 6,
+      "u23": true
+    },
+    {
+      "id": 7322,
+      "nome": "Ngom",
+      "ruolo": "M;C",
+      "squadraReale": "Lecce",
+      "quotazione": 5,
+      "u23": true
+    },
+    {
+      "id": 7341,
+      "nome": "Amorim",
+      "ruolo": "M;C",
+      "squadraReale": "Genoa",
+      "quotazione": 5,
+      "u23": true
+    },
+    {
+      "id": 5319,
+      "nome": "Sohm",
+      "ruolo": "C",
+      "squadraReale": "Venezia",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 6218,
+      "nome": "Oristanio",
+      "ruolo": "W;T",
+      "squadraReale": "Torino",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 6010,
+      "nome": "Fazzini",
+      "ruolo": "C;T",
+      "squadraReale": "Cagliari",
+      "quotazione": 8,
+      "u23": true
+    },
+    {
+      "id": 6191,
+      "nome": "Belahyane",
+      "ruolo": "M;C",
+      "squadraReale": "Lazio",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 6984,
+      "nome": "Ondrejka",
+      "ruolo": "W;A",
+      "squadraReale": "Parma",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 7157,
+      "nome": "Iannoni",
+      "ruolo": "M;C",
+      "squadraReale": "Sassuolo",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 6212,
+      "nome": "Zarraga",
+      "ruolo": "M;C",
+      "squadraReale": "Udinese",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 6980,
+      "nome": "Venturino",
+      "ruolo": "W",
+      "squadraReale": "Genoa",
+      "quotazione": 2,
+      "u23": true
+    },
+    {
+      "id": 4459,
+      "nome": "Rovella",
+      "ruolo": "M;C",
+      "squadraReale": "Lazio",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 5872,
+      "nome": "Helgason",
+      "ruolo": "C;T",
+      "squadraReale": "Venezia",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 6219,
+      "nome": "Boloca",
+      "ruolo": "M;C",
+      "squadraReale": "Sassuolo",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 6889,
+      "nome": "Anjorin",
+      "ruolo": "C;T",
+      "squadraReale": "Torino",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7248,
+      "nome": "Gorter",
+      "ruolo": "M;C",
+      "squadraReale": "Lecce",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 7036,
+      "nome": "Bakola",
+      "ruolo": "C;T",
+      "squadraReale": "Sassuolo",
+      "quotazione": 5,
+      "u23": true
+    },
+    {
+      "id": 7165,
+      "nome": "Liteta",
+      "ruolo": "M;C",
+      "squadraReale": "Cagliari",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 5007,
+      "nome": "Ilic",
+      "ruolo": "C",
+      "squadraReale": "Torino",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 6677,
+      "nome": "Adzic",
+      "ruolo": "C;T",
+      "squadraReale": "Sassuolo",
+      "quotazione": 5,
+      "u23": true
+    },
+    {
+      "id": 7276,
+      "nome": "Cremaschi",
+      "ruolo": "E;C",
+      "squadraReale": "Parma",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 7319,
+      "nome": "Fofana Sa.",
+      "ruolo": "M;C",
+      "squadraReale": "Lecce",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 7345,
+      "nome": "Przyborek",
+      "ruolo": "W;T",
+      "squadraReale": "Lazio",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 7357,
+      "nome": "Lahdo",
+      "ruolo": "C;T",
+      "squadraReale": "Como",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 2764,
+      "nome": "Martinez L.",
+      "ruolo": "Pc",
+      "squadraReale": "Inter",
+      "quotazione": 35,
+      "u23": false
+    },
+    {
+      "id": 531,
+      "nome": "Berardi",
+      "ruolo": "A",
+      "squadraReale": "Sassuolo",
+      "quotazione": 19,
+      "u23": false
+    },
+    {
+      "id": 6435,
+      "nome": "Krstovic",
+      "ruolo": "Pc",
+      "squadraReale": "Atalanta",
+      "quotazione": 17,
+      "u23": false
+    },
+    {
+      "id": 2137,
+      "nome": "Scamacca",
+      "ruolo": "Pc",
+      "squadraReale": "Atalanta",
+      "quotazione": 18,
+      "u23": false
+    },
+    {
+      "id": 2061,
+      "nome": "Simeone",
+      "ruolo": "Pc",
+      "squadraReale": "Torino",
+      "quotazione": 15,
+      "u23": false
+    },
+    {
+      "id": 4463,
+      "nome": "Esposito Se.",
+      "ruolo": "A",
+      "squadraReale": "Cagliari",
+      "quotazione": 14,
+      "u23": false
+    },
+    {
+      "id": 6060,
+      "nome": "Laurientè",
+      "ruolo": "A",
+      "squadraReale": "Sassuolo",
+      "quotazione": 16,
+      "u23": false
+    },
+    {
+      "id": 5734,
+      "nome": "Soulè",
+      "ruolo": "A",
+      "squadraReale": "Roma",
+      "quotazione": 13,
+      "u23": true
+    },
+    {
+      "id": 7023,
+      "nome": "Pellegrino M.",
+      "ruolo": "Pc",
+      "squadraReale": "Parma",
+      "quotazione": 15,
+      "u23": false
+    },
+    {
+      "id": 4728,
+      "nome": "Nkunku",
+      "ruolo": "A",
+      "squadraReale": "Milan",
+      "quotazione": 14,
+      "u23": false
+    },
+    {
+      "id": 2097,
+      "nome": "Kean",
+      "ruolo": "Pc",
+      "squadraReale": "Fiorentina",
+      "quotazione": 25,
+      "u23": false
+    },
+    {
+      "id": 2038,
+      "nome": "Pinamonti",
+      "ruolo": "Pc",
+      "squadraReale": "Sassuolo",
+      "quotazione": 12,
+      "u23": false
+    },
+    {
+      "id": 6646,
+      "nome": "Adams C.",
+      "ruolo": "A",
+      "squadraReale": "Torino",
+      "quotazione": 10,
+      "u23": false
+    },
+    {
+      "id": 4371,
+      "nome": "Raspadori",
+      "ruolo": "A",
+      "squadraReale": "Atalanta",
+      "quotazione": 14,
+      "u23": false
+    },
+    {
+      "id": 2531,
+      "nome": "Lukaku",
+      "ruolo": "Pc",
+      "squadraReale": "Napoli",
+      "quotazione": 9,
+      "u23": false
+    },
+    {
+      "id": 4923,
+      "nome": "Colombo",
+      "ruolo": "Pc",
+      "squadraReale": "Genoa",
+      "quotazione": 10,
+      "u23": false
+    },
+    {
+      "id": 6556,
+      "nome": "Noslin",
+      "ruolo": "A",
+      "squadraReale": "Lazio",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 6164,
+      "nome": "Vitinha O.",
+      "ruolo": "A",
+      "squadraReale": "Genoa",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 5544,
+      "nome": "David",
+      "ruolo": "Pc",
+      "squadraReale": "Juventus",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 7162,
+      "nome": "Giovane",
+      "ruolo": "A",
+      "squadraReale": "Napoli",
+      "quotazione": 4,
+      "u23": true
+    },
+    {
+      "id": 4436,
+      "nome": "Cambiaghi",
+      "ruolo": "W;A",
+      "squadraReale": "Bologna",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 7008,
+      "nome": "Gimenez",
+      "ruolo": "Pc",
+      "squadraReale": "Milan",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 6243,
+      "nome": "Borrelli",
+      "ruolo": "Pc",
+      "squadraReale": "Cagliari",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 2832,
+      "nome": "Boga",
+      "ruolo": "W;A",
+      "squadraReale": "Juventus",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 7347,
+      "nome": "Bowie",
+      "ruolo": "Pc",
+      "squadraReale": "Sassuolo",
+      "quotazione": 9,
+      "u23": false
+    },
+    {
+      "id": 4359,
+      "nome": "Piccoli",
+      "ruolo": "Pc",
+      "squadraReale": "Fiorentina",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 7313,
+      "nome": "Ratkov",
+      "ruolo": "Pc",
+      "squadraReale": "Lazio",
+      "quotazione": 9,
+      "u23": true
+    },
+    {
+      "id": 608,
+      "nome": "Zapata D.",
+      "ruolo": "Pc",
+      "squadraReale": "Torino",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 7252,
+      "nome": "Stulic",
+      "ruolo": "Pc",
+      "squadraReale": "Lecce",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 6981,
+      "nome": "Vaz",
+      "ruolo": "Pc",
+      "squadraReale": "Roma",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 7001,
+      "nome": "N'Dri",
+      "ruolo": "W;A",
+      "squadraReale": "Lecce",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 7249,
+      "nome": "Buksa",
+      "ruolo": "Pc",
+      "squadraReale": "Udinese",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 6643,
+      "nome": "Dallinga",
+      "ruolo": "Pc",
+      "squadraReale": "Bologna",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 5672,
+      "nome": "Dia",
+      "ruolo": "A",
+      "squadraReale": "Lazio",
+      "quotazione": 11,
+      "u23": false
+    },
+    {
+      "id": 6827,
+      "nome": "Njie",
+      "ruolo": "W;A",
+      "squadraReale": "Torino",
+      "quotazione": 3,
+      "u23": true
+    },
+    {
+      "id": 7342,
+      "nome": "Elphege",
+      "ruolo": "Pc",
+      "squadraReale": "Parma",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 7128,
+      "nome": "Kuhn",
+      "ruolo": "W;A",
+      "squadraReale": "Como",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 7272,
+      "nome": "Gueye",
+      "ruolo": "Pc",
+      "squadraReale": "Udinese",
+      "quotazione": 3,
+      "u23": true
+    },
+    {
+      "id": 7374,
+      "nome": "Mendy P.",
+      "ruolo": "Pc",
+      "squadraReale": "Cagliari",
+      "quotazione": 3,
+      "u23": true
+    },
+    {
+      "id": 7349,
+      "nome": "Kulenovic",
+      "ruolo": "Pc",
+      "squadraReale": "Torino",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 6895,
+      "nome": "Dominguez B.",
+      "ruolo": "W;A",
+      "squadraReale": "Bologna",
+      "quotazione": 2,
+      "u23": true
+    },
+    {
+      "id": 6207,
+      "nome": "Almqvist",
+      "ruolo": "W;A",
+      "squadraReale": "Parma",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 6519,
+      "nome": "Camarda",
+      "ruolo": "Pc",
+      "squadraReale": "Milan",
+      "quotazione": 4,
+      "u23": true
+    },
+    {
+      "id": 7161,
+      "nome": "Bayo V.",
+      "ruolo": "Pc",
+      "squadraReale": "Udinese",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 313,
+      "nome": "Morata",
+      "ruolo": "Pc",
+      "squadraReale": "Como",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 7338,
+      "nome": "Albarracin",
+      "ruolo": "A",
+      "squadraReale": "Cagliari",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 7158,
+      "nome": "Moro L.",
+      "ruolo": "Pc",
+      "squadraReale": "Sassuolo",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7183,
+      "nome": "Aboukhlal",
+      "ruolo": "W;A",
+      "squadraReale": "Torino",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 7213,
+      "nome": "Frigan",
+      "ruolo": "A",
+      "squadraReale": "Parma",
+      "quotazione": 5,
+      "u23": true
+    },
+    {
+      "id": 7317,
+      "nome": "Trepy",
+      "ruolo": "Pc",
+      "squadraReale": "Cagliari",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 6482,
+      "nome": "Mandas",
+      "ruolo": "Por",
+      "squadraReale": "Lazio",
+      "quotazione": 9,
+      "u23": false
+    },
+    {
+      "id": 7411,
+      "nome": "Daffara",
+      "ruolo": "Por",
+      "squadraReale": "Parma",
+      "quotazione": 7,
+      "u23": true
+    },
+    {
+      "id": 6248,
+      "nome": "Stankovic F.",
+      "ruolo": "Por",
+      "squadraReale": "Venezia",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 4485,
+      "nome": "Thiam",
+      "ruolo": "Por",
+      "squadraReale": "Monza",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 6415,
+      "nome": "Palmisani",
+      "ruolo": "Por",
+      "squadraReale": "Frosinone",
+      "quotazione": 4,
+      "u23": true
+    },
+    {
+      "id": 7463,
+      "nome": "Desplanches",
+      "ruolo": "Por",
+      "squadraReale": "Frosinone",
+      "quotazione": 2,
+      "u23": true
+    },
+    {
+      "id": 7533,
+      "nome": "Happonen",
+      "ruolo": "Por",
+      "squadraReale": "Bologna",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 7466,
+      "nome": "Lolic",
+      "ruolo": "Por",
+      "squadraReale": "Frosinone",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 6569,
+      "nome": "Stolz",
+      "ruolo": "Por",
+      "squadraReale": "Genoa",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7534,
+      "nome": "Renzetti",
+      "ruolo": "Por",
+      "squadraReale": "Lazio",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 6682,
+      "nome": "Pizzignacco",
+      "ruolo": "Por",
+      "squadraReale": "Monza",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7475,
+      "nome": "Strajnar",
+      "ruolo": "Por",
+      "squadraReale": "Monza",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 7048,
+      "nome": "De Marzi",
+      "ruolo": "Por",
+      "squadraReale": "Roma",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 4518,
+      "nome": "Russo A.",
+      "ruolo": "Por",
+      "squadraReale": "Sassuolo",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7457,
+      "nome": "Mascardi",
+      "ruolo": "Por",
+      "squadraReale": "Torino",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 5707,
+      "nome": "Piana",
+      "ruolo": "Por",
+      "squadraReale": "Udinese",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 6671,
+      "nome": "Grandi",
+      "ruolo": "Por",
+      "squadraReale": "Venezia",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7531,
+      "nome": "Pozzi",
+      "ruolo": "Por",
+      "squadraReale": "Venezia",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 2514,
+      "nome": "Stones",
+      "ruolo": "Dc",
+      "squadraReale": "Inter",
+      "quotazione": 12,
+      "u23": false
+    },
+    {
+      "id": 5365,
+      "nome": "Dragusin",
+      "ruolo": "Dc",
+      "squadraReale": "Fiorentina",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 7529,
+      "nome": "Koulierakis",
+      "ruolo": "Dc",
+      "squadraReale": "Roma",
+      "quotazione": 8,
+      "u23": true
+    },
+    {
+      "id": 7414,
+      "nome": "Kaiki",
+      "ruolo": "Ds;E",
+      "squadraReale": "Como",
+      "quotazione": 7,
+      "u23": true
+    },
+    {
+      "id": 6320,
+      "nome": "Doekhi",
+      "ruolo": "Dc",
+      "squadraReale": "Lazio",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 7294,
+      "nome": "Valdepenas",
+      "ruolo": "Ds;Dc",
+      "squadraReale": "Fiorentina",
+      "quotazione": 7,
+      "u23": true
+    },
+    {
+      "id": 7410,
+      "nome": "Viery",
+      "ruolo": "Ds;Dc",
+      "squadraReale": "Fiorentina",
+      "quotazione": 7,
+      "u23": true
+    },
+    {
+      "id": 4952,
+      "nome": "Monterisi",
+      "ruolo": "Dc",
+      "squadraReale": "Frosinone",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 4177,
+      "nome": "Pavard",
+      "ruolo": "Dd;Dc",
+      "squadraReale": "Inter",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 7485,
+      "nome": "Mangas",
+      "ruolo": "Ds;E",
+      "squadraReale": "Monza",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 7532,
+      "nome": "Kofler",
+      "ruolo": "Dc",
+      "squadraReale": "Cagliari",
+      "quotazione": 5,
+      "u23": true
+    },
+    {
+      "id": 7469,
+      "nome": "Bracaglia",
+      "ruolo": "Ds;Dc",
+      "squadraReale": "Frosinone",
+      "quotazione": 5,
+      "u23": true
+    },
+    {
+      "id": 6238,
+      "nome": "Oyono A.",
+      "ruolo": "Dd;E",
+      "squadraReale": "Frosinone",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 4817,
+      "nome": "Pedraza",
+      "ruolo": "Ds;E",
+      "squadraReale": "Lazio",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 6890,
+      "nome": "Moreno M.",
+      "ruolo": "Dc",
+      "squadraReale": "Venezia",
+      "quotazione": 5,
+      "u23": true
+    },
+    {
+      "id": 5695,
+      "nome": "Haps",
+      "ruolo": "Ds;E",
+      "squadraReale": "Venezia",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 7467,
+      "nome": "Calvani",
+      "ruolo": "Dc",
+      "squadraReale": "Frosinone",
+      "quotazione": 4,
+      "u23": true
+    },
+    {
+      "id": 7537,
+      "nome": "Mitaj",
+      "ruolo": "Ds;E",
+      "squadraReale": "Genoa",
+      "quotazione": 4,
+      "u23": true
+    },
+    {
+      "id": 2115,
+      "nome": "Delli Carri",
+      "ruolo": "Dc",
+      "squadraReale": "Monza",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 6659,
+      "nome": "Lucchesi",
+      "ruolo": "Dc",
+      "squadraReale": "Monza",
+      "quotazione": 4,
+      "u23": true
+    },
+    {
+      "id": 5838,
+      "nome": "Birindelli",
+      "ruolo": "Dd;Ds;E",
+      "squadraReale": "Monza",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 7526,
+      "nome": "Comert",
+      "ruolo": "Dc",
+      "squadraReale": "Torino",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 7538,
+      "nome": "Halhal",
+      "ruolo": "Dc",
+      "squadraReale": "Venezia",
+      "quotazione": 4,
+      "u23": true
+    },
+    {
+      "id": 4845,
+      "nome": "Correia T.",
+      "ruolo": "Dd;E",
+      "squadraReale": "Venezia",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 7540,
+      "nome": "Akpoguma",
+      "ruolo": "Dc",
+      "squadraReale": "Frosinone",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 5757,
+      "nome": "Cittadini",
+      "ruolo": "Dc",
+      "squadraReale": "Frosinone",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 4925,
+      "nome": "Carboni A.",
+      "ruolo": "Ds;Dc",
+      "squadraReale": "Monza",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 6892,
+      "nome": "Schingtienne",
+      "ruolo": "Dc",
+      "squadraReale": "Venezia",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 6673,
+      "nome": "Sverko",
+      "ruolo": "Ds;Dc",
+      "squadraReale": "Venezia",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 6821,
+      "nome": "Hainaut",
+      "ruolo": "Dd;E",
+      "squadraReale": "Venezia",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 7483,
+      "nome": "Alhassane",
+      "ruolo": "Ds;E",
+      "squadraReale": "Bologna",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 7413,
+      "nome": "Puczka",
+      "ruolo": "Ds;E",
+      "squadraReale": "Genoa",
+      "quotazione": 2,
+      "u23": true
+    },
+    {
+      "id": 7525,
+      "nome": "Diawara S.",
+      "ruolo": "Ds;Dc",
+      "squadraReale": "Milan",
+      "quotazione": 2,
+      "u23": true
+    },
+    {
+      "id": 6638,
+      "nome": "Marin R.",
+      "ruolo": "Dc",
+      "squadraReale": "Napoli",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 6925,
+      "nome": "Palma",
+      "ruolo": "Dc",
+      "squadraReale": "Udinese",
+      "quotazione": 2,
+      "u23": true
+    },
+    {
+      "id": 7478,
+      "nome": "Franjic",
+      "ruolo": "B;Ds;E",
+      "squadraReale": "Venezia",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 6681,
+      "nome": "Sagrado",
+      "ruolo": "Dd;E",
+      "squadraReale": "Venezia",
+      "quotazione": 2,
+      "u23": true
+    },
+    {
+      "id": 7407,
+      "nome": "Cuenca A.",
+      "ruolo": "Ds;Dc",
+      "squadraReale": "Como",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 5424,
+      "nome": "Amey",
+      "ruolo": "Dc",
+      "squadraReale": "Frosinone",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 7468,
+      "nome": "Gelli J.",
+      "ruolo": "Dc",
+      "squadraReale": "Frosinone",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7470,
+      "nome": "Oyono J.",
+      "ruolo": "Dd;E",
+      "squadraReale": "Frosinone",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7471,
+      "nome": "Corrado",
+      "ruolo": "Ds;E",
+      "squadraReale": "Frosinone",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 6245,
+      "nome": "Vogliacco",
+      "ruolo": "Dd;Dc",
+      "squadraReale": "Genoa",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 6244,
+      "nome": "Matturro",
+      "ruolo": "Ds;Dc",
+      "squadraReale": "Genoa",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 5399,
+      "nome": "Antov",
+      "ruolo": "Dc",
+      "squadraReale": "Monza",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7476,
+      "nome": "Bakoune",
+      "ruolo": "Dd;E",
+      "squadraReale": "Monza",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 6189,
+      "nome": "Missori",
+      "ruolo": "Dd;E",
+      "squadraReale": "Sassuolo",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 6021,
+      "nome": "Abankwah",
+      "ruolo": "Dd;Dc",
+      "squadraReale": "Udinese",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 7454,
+      "nome": "Gomes",
+      "ruolo": "Ds;Dc",
+      "squadraReale": "Venezia",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 7436,
+      "nome": "Alajbegovic",
+      "ruolo": "W;T",
+      "squadraReale": "Juventus",
+      "quotazione": 12,
+      "u23": true
+    },
+    {
+      "id": 5878,
+      "nome": "Colpani",
+      "ruolo": "T",
+      "squadraReale": "Monza",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 7472,
+      "nome": "Calò",
+      "ruolo": "M;C",
+      "squadraReale": "Frosinone",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 2741,
+      "nome": "Pessina",
+      "ruolo": "M;C",
+      "squadraReale": "Monza",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 6783,
+      "nome": "Unai Gomez",
+      "ruolo": "T",
+      "squadraReale": "Udinese",
+      "quotazione": 6,
+      "u23": true
+    },
+    {
+      "id": 4260,
+      "nome": "Winks",
+      "ruolo": "M;C",
+      "squadraReale": "Cagliari",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 6678,
+      "nome": "Liberali",
+      "ruolo": "T",
+      "squadraReale": "Como",
+      "quotazione": 5,
+      "u23": true
+    },
+    {
+      "id": 7464,
+      "nome": "Oulai",
+      "ruolo": "M;C",
+      "squadraReale": "Fiorentina",
+      "quotazione": 7,
+      "u23": true
+    },
+    {
+      "id": 7528,
+      "nome": "Amondarain",
+      "ruolo": "M;C",
+      "squadraReale": "Bologna",
+      "quotazione": 6,
+      "u23": true
+    },
+    {
+      "id": 7311,
+      "nome": "Romano",
+      "ruolo": "M;C",
+      "squadraReale": "Cagliari",
+      "quotazione": 6,
+      "u23": true
+    },
+    {
+      "id": 7412,
+      "nome": "Milla",
+      "ruolo": "M;C",
+      "squadraReale": "Como",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 7409,
+      "nome": "Meichtry",
+      "ruolo": "W;T",
+      "squadraReale": "Genoa",
+      "quotazione": 5,
+      "u23": true
+    },
+    {
+      "id": 2857,
+      "nome": "Traorè Hj.",
+      "ruolo": "W;T",
+      "squadraReale": "Genoa",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 7060,
+      "nome": "Cacciamani",
+      "ruolo": "E;W",
+      "squadraReale": "Torino",
+      "quotazione": 6,
+      "u23": true
+    },
+    {
+      "id": 5507,
+      "nome": "Busio",
+      "ruolo": "M;C",
+      "squadraReale": "Venezia",
+      "quotazione": 6,
+      "u23": false
+    },
+    {
+      "id": 6994,
+      "nome": "Perez K.",
+      "ruolo": "C;T",
+      "squadraReale": "Venezia",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 7473,
+      "nome": "Cichella",
+      "ruolo": "M;C",
+      "squadraReale": "Frosinone",
+      "quotazione": 4,
+      "u23": true
+    },
+    {
+      "id": 7474,
+      "nome": "Koutsoupias",
+      "ruolo": "C",
+      "squadraReale": "Frosinone",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 4911,
+      "nome": "Douglas Luiz",
+      "ruolo": "C",
+      "squadraReale": "Juventus",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 7535,
+      "nome": "Fitz-Jim",
+      "ruolo": "M;C",
+      "squadraReale": "Torino",
+      "quotazione": 5,
+      "u23": true
+    },
+    {
+      "id": 6241,
+      "nome": "Gelli F.",
+      "ruolo": "C;T",
+      "squadraReale": "Frosinone",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 6506,
+      "nome": "Fini",
+      "ruolo": "W",
+      "squadraReale": "Frosinone",
+      "quotazione": 2,
+      "u23": true
+    },
+    {
+      "id": 6503,
+      "nome": "Stankovic A.",
+      "ruolo": "M;C",
+      "squadraReale": "Inter",
+      "quotazione": 3,
+      "u23": true
+    },
+    {
+      "id": 7477,
+      "nome": "Colombo L.",
+      "ruolo": "M;C",
+      "squadraReale": "Monza",
+      "quotazione": 3,
+      "u23": true
+    },
+    {
+      "id": 7536,
+      "nome": "Diallo O.",
+      "ruolo": "W;A",
+      "squadraReale": "Parma",
+      "quotazione": 2,
+      "u23": true
+    },
+    {
+      "id": 6225,
+      "nome": "El Azzouzi O.",
+      "ruolo": "M;C",
+      "squadraReale": "Bologna",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 6903,
+      "nome": "Hasa",
+      "ruolo": "C;T",
+      "squadraReale": "Frosinone",
+      "quotazione": 2,
+      "u23": true
+    },
+    {
+      "id": 5880,
+      "nome": "Ciurria",
+      "ruolo": "E;W",
+      "squadraReale": "Monza",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 7418,
+      "nome": "Chakvetadze",
+      "ruolo": "W;T",
+      "squadraReale": "Udinese",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 526,
+      "nome": "Duncan",
+      "ruolo": "C",
+      "squadraReale": "Venezia",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 7456,
+      "nome": "El Azzouzi A.",
+      "ruolo": "M;C",
+      "squadraReale": "Frosinone",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 5725,
+      "nome": "Kone B.",
+      "ruolo": "C",
+      "squadraReale": "Frosinone",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 6410,
+      "nome": "Kaba",
+      "ruolo": "M;C",
+      "squadraReale": "Lecce",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7392,
+      "nome": "Camara A.",
+      "ruolo": "M;C",
+      "squadraReale": "Udinese",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 5485,
+      "nome": "Bjarkason",
+      "ruolo": "E;W",
+      "squadraReale": "Venezia",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7481,
+      "nome": "Dagasso",
+      "ruolo": "C",
+      "squadraReale": "Venezia",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 7484,
+      "nome": "Adams A.",
+      "ruolo": "Pc",
+      "squadraReale": "Venezia",
+      "quotazione": 11,
+      "u23": false
+    },
+    {
+      "id": 6530,
+      "nome": "Ghedjemis",
+      "ruolo": "W;A",
+      "squadraReale": "Frosinone",
+      "quotazione": 10,
+      "u23": false
+    },
+    {
+      "id": 5029,
+      "nome": "Geubbels",
+      "ruolo": "Pc",
+      "squadraReale": "Lecce",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 2155,
+      "nome": "Cutrone",
+      "ruolo": "Pc",
+      "squadraReale": "Monza",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 6904,
+      "nome": "Yeboah J.",
+      "ruolo": "A",
+      "squadraReale": "Venezia",
+      "quotazione": 8,
+      "u23": false
+    },
+    {
+      "id": 7449,
+      "nome": "Rrahmani Al.",
+      "ruolo": "Pc",
+      "squadraReale": "Venezia",
+      "quotazione": 7,
+      "u23": false
+    },
+    {
+      "id": 5436,
+      "nome": "Raimondo",
+      "ruolo": "Pc",
+      "squadraReale": "Frosinone",
+      "quotazione": 6,
+      "u23": true
+    },
+    {
+      "id": 6598,
+      "nome": "Mutandwa",
+      "ruolo": "Pc",
+      "squadraReale": "Cagliari",
+      "quotazione": 6,
+      "u23": true
+    },
+    {
+      "id": 5882,
+      "nome": "Mota",
+      "ruolo": "A",
+      "squadraReale": "Monza",
+      "quotazione": 5,
+      "u23": false
+    },
+    {
+      "id": 4387,
+      "nome": "Adorante",
+      "ruolo": "Pc",
+      "squadraReale": "Venezia",
+      "quotazione": 4,
+      "u23": false
+    },
+    {
+      "id": 6204,
+      "nome": "Kvernadze",
+      "ruolo": "W;A",
+      "squadraReale": "Frosinone",
+      "quotazione": 5,
+      "u23": true
+    },
+    {
+      "id": 7453,
+      "nome": "Havel",
+      "ruolo": "Pc",
+      "squadraReale": "Genoa",
+      "quotazione": 3,
+      "u23": true
+    },
+    {
+      "id": 7523,
+      "nome": "Varela G.",
+      "ruolo": "Pc",
+      "squadraReale": "Monza",
+      "quotazione": 3,
+      "u23": true
+    },
+    {
+      "id": 7120,
+      "nome": "Lang",
+      "ruolo": "A",
+      "squadraReale": "Napoli",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 6215,
+      "nome": "Lucca",
+      "ruolo": "Pc",
+      "squadraReale": "Napoli",
+      "quotazione": 3,
+      "u23": false
+    },
+    {
+      "id": 383,
+      "nome": "Petagna",
+      "ruolo": "Pc",
+      "squadraReale": "Monza",
+      "quotazione": 2,
+      "u23": false
+    },
+    {
+      "id": 7027,
+      "nome": "Azon",
+      "ruolo": "Pc",
+      "squadraReale": "Como",
+      "quotazione": 1,
+      "u23": false
+    },
+    {
+      "id": 7408,
+      "nome": "Lisman",
+      "ruolo": "W;A",
+      "squadraReale": "Venezia",
+      "quotazione": 1,
+      "u23": true
+    },
+    {
+      "id": 7482,
+      "nome": "Lauberbach",
+      "ruolo": "Pc",
+      "squadraReale": "Venezia",
+      "quotazione": 1,
+      "u23": false
+    }
+  ],
+  "ordineEsclusive": [],
+  "ordineDraft": [
+    {
+      "nome": "Xaxa",
+      "rank": 11,
+      "valoreRosa": 41
+    },
+    {
+      "nome": "Davide",
+      "rank": 10,
+      "valoreRosa": 43
+    },
+    {
+      "nome": "Morons",
+      "rank": 6,
+      "valoreRosa": 44
+    },
+    {
+      "nome": "Albe",
+      "rank": 9,
+      "valoreRosa": 47
+    },
+    {
+      "nome": "Umbe",
+      "rank": 8,
+      "valoreRosa": 48
+    },
+    {
+      "nome": "Claudio",
+      "rank": 2,
+      "valoreRosa": 51
+    },
+    {
+      "nome": "Nino",
+      "rank": 7,
+      "valoreRosa": 52
+    },
+    {
+      "nome": "Vascio",
+      "rank": 4,
+      "valoreRosa": 56
+    },
+    {
+      "nome": "Kekko",
+      "rank": 3,
+      "valoreRosa": 59
+    },
+    {
+      "nome": "Ciccio",
+      "rank": 5,
+      "valoreRosa": 60
+    },
+    {
+      "nome": "Paolo",
+      "rank": 12,
+      "valoreRosa": 60
+    },
+    {
+      "nome": "Mauro",
+      "rank": 1,
+      "valoreRosa": 67
+    }
+  ],
+  "squadre": [
+    {
+      "nome": "Mauro",
+      "rank": 1,
+      "budget": 240,
+      "creditiSpesi": 67,
+      "creditiResidui": 173,
+      "valoreRosa": 67,
+      "rosa": [
+        {
+          "nome": "Gutierrez",
+          "ruolo": "Ds;E",
+          "squadraReale": "Napoli",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Sucic P.",
+          "ruolo": "C",
+          "squadraReale": "Inter",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Malen",
+          "ruolo": "Pc",
+          "squadraReale": "Roma",
+          "prezzo": 34,
+          "fase": "esclusiva",
+          "giro": null
+        },
+        {
+          "nome": "Butez",
+          "ruolo": "Por",
+          "squadraReale": "Como",
+          "prezzo": 16,
+          "fase": "draft",
+          "giro": 1
+        },
+        {
+          "nome": "Atta",
+          "ruolo": "C;T",
+          "squadraReale": "Fiorentina",
+          "prezzo": 17,
+          "fase": "draft",
+          "giro": 1
+        }
+      ]
+    },
+    {
+      "nome": "Claudio",
+      "rank": 2,
+      "budget": 240,
+      "creditiSpesi": 51,
+      "creditiResidui": 189,
+      "valoreRosa": 51,
+      "rosa": [
+        {
+          "nome": "Milinkovic-Savic V.",
+          "ruolo": "Por",
+          "squadraReale": "Napoli",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Frattesi",
+          "ruolo": "C;T",
+          "squadraReale": "Inter",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Caprile",
+          "ruolo": "Por",
+          "squadraReale": "Cagliari",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Pisilli",
+          "ruolo": "C",
+          "squadraReale": "Roma",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Paz N.",
+          "ruolo": "T;A",
+          "squadraReale": "Como",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Diao",
+          "ruolo": "W;A",
+          "squadraReale": "Como",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Jashari",
+          "ruolo": "C",
+          "squadraReale": "Milan",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Dybala",
+          "ruolo": "A",
+          "squadraReale": "Roma",
+          "prezzo": 15,
+          "fase": "draft",
+          "giro": 1
+        },
+        {
+          "nome": "Orsolini",
+          "ruolo": "W;A",
+          "squadraReale": "Bologna",
+          "prezzo": 25,
+          "fase": "draft",
+          "giro": 1
+        },
+        {
+          "nome": "Meret",
+          "ruolo": "Por",
+          "squadraReale": "Napoli",
+          "prezzo": 11,
+          "fase": "draft",
+          "giro": 1
+        }
+      ]
+    },
+    {
+      "nome": "Kekko",
+      "rank": 3,
+      "budget": 240,
+      "creditiSpesi": 59,
+      "creditiResidui": 181,
+      "valoreRosa": 59,
+      "rosa": [
+        {
+          "nome": "Cancellieri",
+          "ruolo": "W;A",
+          "squadraReale": "Lazio",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Volpato",
+          "ruolo": "W;T",
+          "squadraReale": "Sassuolo",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Gatti",
+          "ruolo": "Dc",
+          "squadraReale": "Juventus",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Addai",
+          "ruolo": "W;A",
+          "squadraReale": "Como",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Pulisic",
+          "ruolo": "T;A",
+          "squadraReale": "Milan",
+          "prezzo": 23,
+          "fase": "draft",
+          "giro": 1
+        },
+        {
+          "nome": "Leao",
+          "ruolo": "A",
+          "squadraReale": "Milan",
+          "prezzo": 19,
+          "fase": "draft",
+          "giro": 1
+        },
+        {
+          "nome": "Barella",
+          "ruolo": "C",
+          "squadraReale": "Inter",
+          "prezzo": 17,
+          "fase": "draft",
+          "giro": 1
+        }
+      ]
+    },
+    {
+      "nome": "Vascio",
+      "rank": 4,
+      "budget": 240,
+      "creditiSpesi": 56,
+      "creditiResidui": 184,
+      "valoreRosa": 56,
+      "rosa": [
+        {
+          "nome": "McTominay",
+          "ruolo": "C;T",
+          "squadraReale": "Napoli",
+          "prezzo": 28,
+          "fase": "esclusiva",
+          "giro": null
+        },
+        {
+          "nome": "Hojlund",
+          "ruolo": "Pc",
+          "squadraReale": "Napoli",
+          "prezzo": 28,
+          "fase": "draft",
+          "giro": 1
+        }
+      ]
+    },
+    {
+      "nome": "Ciccio",
+      "rank": 5,
+      "budget": 240,
+      "creditiSpesi": 60,
+      "creditiResidui": 180,
+      "valoreRosa": 60,
+      "rosa": [
+        {
+          "nome": "Miranda J.",
+          "ruolo": "Ds;E",
+          "squadraReale": "Bologna",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Koopmeiners",
+          "ruolo": "C;T",
+          "squadraReale": "Juventus",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Gila",
+          "ruolo": "Dc",
+          "squadraReale": "Milan",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Castro S.",
+          "ruolo": "Pc",
+          "squadraReale": "Roma",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Veiga D.",
+          "ruolo": "Dd;E",
+          "squadraReale": "Lecce",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Baturina",
+          "ruolo": "T",
+          "squadraReale": "Como",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Dimarco",
+          "ruolo": "E;W",
+          "squadraReale": "Inter",
+          "prezzo": 30,
+          "fase": "draft",
+          "giro": 1
+        },
+        {
+          "nome": "Zaccagni",
+          "ruolo": "W;A",
+          "squadraReale": "Lazio",
+          "prezzo": 15,
+          "fase": "draft",
+          "giro": 1
+        },
+        {
+          "nome": "Maignan",
+          "ruolo": "Por",
+          "squadraReale": "Milan",
+          "prezzo": 15,
+          "fase": "draft",
+          "giro": 1
+        }
+      ]
+    },
+    {
+      "nome": "Morons",
+      "rank": 6,
+      "budget": 240,
+      "creditiSpesi": 44,
+      "creditiResidui": 196,
+      "valoreRosa": 44,
+      "rosa": [
+        {
+          "nome": "Fagioli",
+          "ruolo": "M;C",
+          "squadraReale": "Fiorentina",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Saelemaekers",
+          "ruolo": "E;W",
+          "squadraReale": "Milan",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Hien",
+          "ruolo": "Dc",
+          "squadraReale": "Atalanta",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Vitik",
+          "ruolo": "Dc",
+          "squadraReale": "Bologna",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Kelly L.",
+          "ruolo": "Ds;Dc",
+          "squadraReale": "Juventus",
+          "prezzo": 6,
+          "fase": "draft",
+          "giro": 1
+        },
+        {
+          "nome": "Thuram",
+          "ruolo": "Pc",
+          "squadraReale": "Inter",
+          "prezzo": 29,
+          "fase": "draft",
+          "giro": 1
+        },
+        {
+          "nome": "Di Gregorio",
+          "ruolo": "Por",
+          "squadraReale": "Juventus",
+          "prezzo": 9,
+          "fase": "draft",
+          "giro": 1
+        }
+      ]
+    },
+    {
+      "nome": "Nino",
+      "rank": 7,
+      "budget": 240,
+      "creditiSpesi": 52,
+      "creditiResidui": 188,
+      "valoreRosa": 52,
+      "rosa": [
+        {
+          "nome": "Folorunsho",
+          "ruolo": "C;T",
+          "squadraReale": "Napoli",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Douvikas",
+          "ruolo": "Pc",
+          "squadraReale": "Como",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Calhanoglu",
+          "ruolo": "M;C",
+          "squadraReale": "Inter",
+          "prezzo": 28,
+          "fase": "draft",
+          "giro": 1
+        },
+        {
+          "nome": "Yildiz",
+          "ruolo": "A",
+          "squadraReale": "Juventus",
+          "prezzo": 24,
+          "fase": "draft",
+          "giro": 1
+        }
+      ]
+    },
+    {
+      "nome": "Umbe",
+      "rank": 8,
+      "budget": 240,
+      "creditiSpesi": 48,
+      "creditiResidui": 192,
+      "valoreRosa": 48,
+      "rosa": [
+        {
+          "nome": "Pavlovic",
+          "ruolo": "Dc",
+          "squadraReale": "Milan",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Marianucci",
+          "ruolo": "Dc",
+          "squadraReale": "Napoli",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Ekhator",
+          "ruolo": "A",
+          "squadraReale": "Juventus",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Chukwueze",
+          "ruolo": "W",
+          "squadraReale": "Milan",
+          "prezzo": 5,
+          "fase": "draft",
+          "giro": 1
+        },
+        {
+          "nome": "Ramos G.",
+          "ruolo": "Pc",
+          "squadraReale": "Milan",
+          "prezzo": 27,
+          "fase": "draft",
+          "giro": 1
+        },
+        {
+          "nome": "Dovbyk",
+          "ruolo": "Pc",
+          "squadraReale": "Bologna",
+          "prezzo": 16,
+          "fase": "draft",
+          "giro": 1
+        }
+      ]
+    },
+    {
+      "nome": "Albe",
+      "rank": 9,
+      "budget": 240,
+      "creditiSpesi": 47,
+      "creditiResidui": 193,
+      "valoreRosa": 47,
+      "rosa": [
+        {
+          "nome": "Delprato",
+          "ruolo": "B;Dd;E",
+          "squadraReale": "Parma",
+          "prezzo": 8,
+          "fase": "esclusiva",
+          "giro": null
+        },
+        {
+          "nome": "Martinez Jo.",
+          "ruolo": "Por",
+          "squadraReale": "Inter",
+          "prezzo": 17,
+          "fase": "draft",
+          "giro": 1
+        },
+        {
+          "nome": "Rabiot",
+          "ruolo": "C;T",
+          "squadraReale": "Milan",
+          "prezzo": 22,
+          "fase": "draft",
+          "giro": 1
+        }
+      ]
+    },
+    {
+      "nome": "Davide",
+      "rank": 10,
+      "budget": 240,
+      "creditiSpesi": 43,
+      "creditiResidui": 197,
+      "valoreRosa": 43,
+      "rosa": [
+        {
+          "nome": "Ilkhan",
+          "ruolo": "M;C",
+          "squadraReale": "Torino",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Rodriguez Je.",
+          "ruolo": "W;A",
+          "squadraReale": "Como",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Jimenez A.",
+          "ruolo": "Dd;Ds;E",
+          "squadraReale": "Fiorentina",
+          "prezzo": 9,
+          "fase": "draft",
+          "giro": 1
+        },
+        {
+          "nome": "De Ketelaere",
+          "ruolo": "A",
+          "squadraReale": "Atalanta",
+          "prezzo": 18,
+          "fase": "draft",
+          "giro": 1
+        },
+        {
+          "nome": "Carnesecchi",
+          "ruolo": "Por",
+          "squadraReale": "Atalanta",
+          "prezzo": 16,
+          "fase": "draft",
+          "giro": 1
+        }
+      ]
+    },
+    {
+      "nome": "Xaxa",
+      "rank": 11,
+      "budget": 240,
+      "creditiSpesi": 41,
+      "creditiResidui": 199,
+      "valoreRosa": 41,
+      "rosa": [
+        {
+          "nome": "Beukema",
+          "ruolo": "Dc",
+          "squadraReale": "Napoli",
+          "prezzo": 6,
+          "fase": "esclusiva",
+          "giro": null
+        },
+        {
+          "nome": "Wesley",
+          "ruolo": "E",
+          "squadraReale": "Roma",
+          "prezzo": 16,
+          "fase": "draft",
+          "giro": 1
+        },
+        {
+          "nome": "Davis K.",
+          "ruolo": "Pc",
+          "squadraReale": "Udinese",
+          "prezzo": 19,
+          "fase": "draft",
+          "giro": 1
+        }
+      ]
+    },
+    {
+      "nome": "Paolo",
+      "rank": 12,
+      "budget": 240,
+      "creditiSpesi": 60,
+      "creditiResidui": 180,
+      "valoreRosa": 60,
+      "rosa": [
+        {
+          "nome": "Zappa",
+          "ruolo": "B;Dd;E",
+          "squadraReale": "Cagliari",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Maldini",
+          "ruolo": "T;A",
+          "squadraReale": "Atalanta",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Sulemana K.",
+          "ruolo": "A",
+          "squadraReale": "Atalanta",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Bonny",
+          "ruolo": "Pc",
+          "squadraReale": "Inter",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Ahanor",
+          "ruolo": "B;Ds;E",
+          "squadraReale": "Atalanta",
+          "prezzo": 0,
+          "fase": "recompra",
+          "giro": null
+        },
+        {
+          "nome": "Svilar",
+          "ruolo": "Por",
+          "squadraReale": "Roma",
+          "prezzo": 18,
+          "fase": "esclusiva",
+          "giro": null
+        },
+        {
+          "nome": "Kolo Muani",
+          "ruolo": "Pc",
+          "squadraReale": "Juventus",
+          "prezzo": 26,
+          "fase": "draft",
+          "giro": 1
+        },
+        {
+          "nome": "Esposito F.P.",
+          "ruolo": "Pc",
+          "squadraReale": "Inter",
+          "prezzo": 16,
+          "fase": "draft",
+          "giro": 1
+        }
+      ]
+    }
+  ],
+  "ultimeChiamate": [
+    {
+      "squadra": "Mauro",
+      "giocatore": "Atta",
+      "ruolo": "C;T",
+      "squadraReale": "Fiorentina",
+      "prezzo": 17,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-06T09:34:27.205Z"
+    },
+    {
+      "squadra": "Ciccio",
+      "giocatore": "Maignan",
+      "ruolo": "Por",
+      "squadraReale": "Milan",
+      "prezzo": 15,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-06T09:34:16.255Z"
+    },
+    {
+      "squadra": "Paolo",
+      "giocatore": "Esposito F.P.",
+      "ruolo": "Pc",
+      "squadraReale": "Inter",
+      "prezzo": 16,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-06T09:34:08.222Z"
+    },
+    {
+      "squadra": "Kekko",
+      "giocatore": "Barella",
+      "ruolo": "C",
+      "squadraReale": "Inter",
+      "prezzo": 17,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-06T09:33:55.355Z"
+    },
+    {
+      "squadra": "Claudio",
+      "giocatore": "Meret",
+      "ruolo": "Por",
+      "squadraReale": "Napoli",
+      "prezzo": 11,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-06T09:33:43.355Z"
+    },
+    {
+      "squadra": "Morons",
+      "giocatore": "Di Gregorio",
+      "ruolo": "Por",
+      "squadraReale": "Juventus",
+      "prezzo": 9,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-06T09:33:31.155Z"
+    },
+    {
+      "squadra": "Umbe",
+      "giocatore": "Dovbyk",
+      "ruolo": "Pc",
+      "squadraReale": "Bologna",
+      "prezzo": 16,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-06T09:33:09.972Z"
+    },
+    {
+      "squadra": "Davide",
+      "giocatore": "Carnesecchi",
+      "ruolo": "Por",
+      "squadraReale": "Atalanta",
+      "prezzo": 16,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-06T09:32:48.472Z"
+    },
+    {
+      "squadra": "Albe",
+      "giocatore": "Rabiot",
+      "ruolo": "C;T",
+      "squadraReale": "Milan",
+      "prezzo": 22,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-06T09:32:35.722Z"
+    },
+    {
+      "squadra": "Xaxa",
+      "giocatore": "Davis K.",
+      "ruolo": "Pc",
+      "squadraReale": "Udinese",
+      "prezzo": 19,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-06T09:32:16.756Z"
+    },
+    {
+      "squadra": "Mauro",
+      "giocatore": "Butez",
+      "ruolo": "Por",
+      "squadraReale": "Como",
+      "prezzo": 16,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T18:18:09.891Z"
+    },
+    {
+      "squadra": "Ciccio",
+      "giocatore": "Zaccagni",
+      "ruolo": "W;A",
+      "squadraReale": "Lazio",
+      "prezzo": 15,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T18:18:03.357Z"
+    },
+    {
+      "squadra": "Nino",
+      "giocatore": "Yildiz",
+      "ruolo": "A",
+      "squadraReale": "Juventus",
+      "prezzo": 24,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T18:17:56.640Z"
+    },
+    {
+      "squadra": "Vascio",
+      "giocatore": "Hojlund",
+      "ruolo": "Pc",
+      "squadraReale": "Napoli",
+      "prezzo": 28,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T18:17:44.758Z"
+    },
+    {
+      "squadra": "Kekko",
+      "giocatore": "Leao",
+      "ruolo": "A",
+      "squadraReale": "Milan",
+      "prezzo": 19,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T18:17:36.657Z"
+    },
+    {
+      "squadra": "Paolo",
+      "giocatore": "Kolo Muani",
+      "ruolo": "Pc",
+      "squadraReale": "Juventus",
+      "prezzo": 26,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T18:16:55.857Z"
+    },
+    {
+      "squadra": "Claudio",
+      "giocatore": "Orsolini",
+      "ruolo": "W;A",
+      "squadraReale": "Bologna",
+      "prezzo": 25,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T18:16:44.391Z"
+    },
+    {
+      "squadra": "Davide",
+      "giocatore": "De Ketelaere",
+      "ruolo": "A",
+      "squadraReale": "Atalanta",
+      "prezzo": 18,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T18:16:35.124Z"
+    },
+    {
+      "squadra": "Albe",
+      "giocatore": "Martinez Jo.",
+      "ruolo": "Por",
+      "squadraReale": "Inter",
+      "prezzo": 17,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T18:15:22.941Z"
+    },
+    {
+      "squadra": "Xaxa",
+      "giocatore": "Wesley",
+      "ruolo": "E",
+      "squadraReale": "Roma",
+      "prezzo": 16,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T18:15:07.924Z"
+    },
+    {
+      "squadra": "Morons",
+      "giocatore": "Thuram",
+      "ruolo": "Pc",
+      "squadraReale": "Inter",
+      "prezzo": 29,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T18:14:57.174Z"
+    },
+    {
+      "squadra": "Umbe",
+      "giocatore": "Ramos G.",
+      "ruolo": "Pc",
+      "squadraReale": "Milan",
+      "prezzo": 27,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T18:14:14.474Z"
+    },
+    {
+      "squadra": "Claudio",
+      "giocatore": "Dybala",
+      "ruolo": "A",
+      "squadraReale": "Roma",
+      "prezzo": 15,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T14:59:54.729Z"
+    },
+    {
+      "squadra": "Kekko",
+      "giocatore": "Pulisic",
+      "ruolo": "T;A",
+      "squadraReale": "Milan",
+      "prezzo": 23,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T14:59:23.846Z"
+    },
+    {
+      "squadra": "Umbe",
+      "giocatore": "Chukwueze",
+      "ruolo": "W",
+      "squadraReale": "Milan",
+      "prezzo": 5,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T14:58:18.648Z"
+    },
+    {
+      "squadra": "Ciccio",
+      "giocatore": "Dimarco",
+      "ruolo": "E;W",
+      "squadraReale": "Inter",
+      "prezzo": 30,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T14:57:49.881Z"
+    },
+    {
+      "squadra": "Nino",
+      "giocatore": "Calhanoglu",
+      "ruolo": "M;C",
+      "squadraReale": "Inter",
+      "prezzo": 28,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T14:57:19.099Z"
+    },
+    {
+      "squadra": "Davide",
+      "giocatore": "Jimenez A.",
+      "ruolo": "Dd;Ds;E",
+      "squadraReale": "Fiorentina",
+      "prezzo": 9,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T14:56:36.983Z"
+    },
+    {
+      "squadra": "Morons",
+      "giocatore": "Kelly L.",
+      "ruolo": "Ds;Dc",
+      "squadraReale": "Juventus",
+      "prezzo": 6,
+      "fase": "draft",
+      "giro": 1,
+      "ts": "2026-08-05T14:52:14.571Z"
+    },
+    {
+      "squadra": "Albe",
+      "giocatore": "Delprato",
+      "ruolo": "B;Dd;E",
+      "squadraReale": "Parma",
+      "prezzo": 8,
+      "fase": "esclusiva",
+      "giro": null,
+      "ts": "2026-08-05T14:43:35.736Z"
+    },
+    {
+      "squadra": "Xaxa",
+      "giocatore": "Beukema",
+      "ruolo": "Dc",
+      "squadraReale": "Napoli",
+      "prezzo": 6,
+      "fase": "esclusiva",
+      "giro": null,
+      "ts": "2026-08-05T14:43:35.735Z"
+    },
+    {
+      "squadra": "Paolo",
+      "giocatore": "Svilar",
+      "ruolo": "Por",
+      "squadraReale": "Roma",
+      "prezzo": 18,
+      "fase": "esclusiva",
+      "giro": null,
+      "ts": "2026-08-05T14:43:35.734Z"
+    },
+    {
+      "squadra": "Vascio",
+      "giocatore": "McTominay",
+      "ruolo": "C;T",
+      "squadraReale": "Napoli",
+      "prezzo": 28,
+      "fase": "esclusiva",
+      "giro": null,
+      "ts": "2026-08-05T14:42:59.937Z"
+    },
+    {
+      "squadra": "Mauro",
+      "giocatore": "Malen",
+      "ruolo": "Pc",
+      "squadraReale": "Roma",
+      "prezzo": 34,
+      "fase": "esclusiva",
+      "giro": null,
+      "ts": "2026-08-05T08:11:27.774Z"
+    },
+    {
+      "squadra": "Kekko",
+      "giocatore": "Volpato",
+      "ruolo": "W;T",
+      "squadraReale": "Sassuolo",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:45:39.810Z"
+    },
+    {
+      "squadra": "Kekko",
+      "giocatore": "Gatti",
+      "ruolo": "Dc",
+      "squadraReale": "Juventus",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:45:39.810Z"
+    },
+    {
+      "squadra": "Kekko",
+      "giocatore": "Addai",
+      "ruolo": "W;A",
+      "squadraReale": "Como",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:45:39.810Z"
+    },
+    {
+      "squadra": "Kekko",
+      "giocatore": "Cancellieri",
+      "ruolo": "W;A",
+      "squadraReale": "Lazio",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:45:39.809Z"
+    },
+    {
+      "squadra": "Umbe",
+      "giocatore": "Pavlovic",
+      "ruolo": "Dc",
+      "squadraReale": "Milan",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:45:06.326Z"
+    },
+    {
+      "squadra": "Umbe",
+      "giocatore": "Marianucci",
+      "ruolo": "Dc",
+      "squadraReale": "Napoli",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:45:06.326Z"
+    },
+    {
+      "squadra": "Umbe",
+      "giocatore": "Ekhator",
+      "ruolo": "A",
+      "squadraReale": "Juventus",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:45:06.326Z"
+    },
+    {
+      "squadra": "Davide",
+      "giocatore": "Ilkhan",
+      "ruolo": "M;C",
+      "squadraReale": "Torino",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:44:43.810Z"
+    },
+    {
+      "squadra": "Davide",
+      "giocatore": "Rodriguez Je.",
+      "ruolo": "W;A",
+      "squadraReale": "Como",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:44:43.810Z"
+    },
+    {
+      "squadra": "Ciccio",
+      "giocatore": "Veiga D.",
+      "ruolo": "Dd;E",
+      "squadraReale": "Lecce",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:44:26.812Z"
+    },
+    {
+      "squadra": "Ciccio",
+      "giocatore": "Baturina",
+      "ruolo": "T",
+      "squadraReale": "Como",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:44:26.812Z"
+    },
+    {
+      "squadra": "Ciccio",
+      "giocatore": "Gila",
+      "ruolo": "Dc",
+      "squadraReale": "Milan",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:44:26.811Z"
+    },
+    {
+      "squadra": "Ciccio",
+      "giocatore": "Castro S.",
+      "ruolo": "Pc",
+      "squadraReale": "Roma",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:44:26.811Z"
+    },
+    {
+      "squadra": "Ciccio",
+      "giocatore": "Miranda J.",
+      "ruolo": "Ds;E",
+      "squadraReale": "Bologna",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:44:26.810Z"
+    },
+    {
+      "squadra": "Ciccio",
+      "giocatore": "Koopmeiners",
+      "ruolo": "C;T",
+      "squadraReale": "Juventus",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:44:26.810Z"
+    },
+    {
+      "squadra": "Mauro",
+      "giocatore": "Gutierrez",
+      "ruolo": "Ds;E",
+      "squadraReale": "Napoli",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:43:39.510Z"
+    },
+    {
+      "squadra": "Mauro",
+      "giocatore": "Sucic P.",
+      "ruolo": "C",
+      "squadraReale": "Inter",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:43:39.510Z"
+    },
+    {
+      "squadra": "Nino",
+      "giocatore": "Douvikas",
+      "ruolo": "Pc",
+      "squadraReale": "Como",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:43:29.444Z"
+    },
+    {
+      "squadra": "Nino",
+      "giocatore": "Folorunsho",
+      "ruolo": "C;T",
+      "squadraReale": "Napoli",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:43:29.443Z"
+    },
+    {
+      "squadra": "Paolo",
+      "giocatore": "Maldini",
+      "ruolo": "T;A",
+      "squadraReale": "Atalanta",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:43:12.927Z"
+    },
+    {
+      "squadra": "Paolo",
+      "giocatore": "Sulemana K.",
+      "ruolo": "A",
+      "squadraReale": "Atalanta",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:43:12.927Z"
+    },
+    {
+      "squadra": "Paolo",
+      "giocatore": "Bonny",
+      "ruolo": "Pc",
+      "squadraReale": "Inter",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:43:12.927Z"
+    },
+    {
+      "squadra": "Paolo",
+      "giocatore": "Ahanor",
+      "ruolo": "B;Ds;E",
+      "squadraReale": "Atalanta",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:43:12.927Z"
+    },
+    {
+      "squadra": "Paolo",
+      "giocatore": "Zappa",
+      "ruolo": "B;Dd;E",
+      "squadraReale": "Cagliari",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:43:12.926Z"
+    },
+    {
+      "squadra": "Morons",
+      "giocatore": "Vitik",
+      "ruolo": "Dc",
+      "squadraReale": "Bologna",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:42:39.061Z"
+    },
+    {
+      "squadra": "Morons",
+      "giocatore": "Fagioli",
+      "ruolo": "M;C",
+      "squadraReale": "Fiorentina",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:42:39.060Z"
+    },
+    {
+      "squadra": "Morons",
+      "giocatore": "Saelemaekers",
+      "ruolo": "E;W",
+      "squadraReale": "Milan",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:42:39.060Z"
+    },
+    {
+      "squadra": "Morons",
+      "giocatore": "Hien",
+      "ruolo": "Dc",
+      "squadraReale": "Atalanta",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:42:39.060Z"
+    },
+    {
+      "squadra": "Claudio",
+      "giocatore": "Diao",
+      "ruolo": "W;A",
+      "squadraReale": "Como",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:40:36.880Z"
+    },
+    {
+      "squadra": "Claudio",
+      "giocatore": "Jashari",
+      "ruolo": "C",
+      "squadraReale": "Milan",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:40:36.880Z"
+    },
+    {
+      "squadra": "Claudio",
+      "giocatore": "Caprile",
+      "ruolo": "Por",
+      "squadraReale": "Cagliari",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:40:36.879Z"
+    },
+    {
+      "squadra": "Claudio",
+      "giocatore": "Pisilli",
+      "ruolo": "C",
+      "squadraReale": "Roma",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:40:36.879Z"
+    },
+    {
+      "squadra": "Claudio",
+      "giocatore": "Paz N.",
+      "ruolo": "T;A",
+      "squadraReale": "Como",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:40:36.879Z"
+    },
+    {
+      "squadra": "Claudio",
+      "giocatore": "Milinkovic-Savic V.",
+      "ruolo": "Por",
+      "squadraReale": "Napoli",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:40:36.878Z"
+    },
+    {
+      "squadra": "Claudio",
+      "giocatore": "Frattesi",
+      "ruolo": "C;T",
+      "squadraReale": "Inter",
+      "prezzo": 0,
+      "fase": "recompra",
+      "giro": null,
+      "ts": "2026-08-04T22:40:36.878Z"
+    }
+  ]
+}
