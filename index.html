@@ -266,6 +266,7 @@
   .limit-chip.ok{background:var(--verde-campo);color:#fff;}
   header.compl-header{position:relative;}
   .btn-torna-hub{margin-top:8px;}
+  .btn-campetto-big{padding:36px 48px;font-size:21px;font-weight:800;border-radius:14px;}
 </style>
 </head>
 <body>
@@ -301,7 +302,7 @@
   </div>
 </div>
 
-<header id="headerDraft">
+<header id="headerDraft" style="display:none;">
   <div class="header-row">
     <div class="header-badge"></div>
     <div>
@@ -567,7 +568,7 @@
       <div class="card">
         <div class="stat-box" id="complRosaStats"></div>
         <div class="limit-row" id="complLimitRow"></div>
-        <div class="row" style="margin-top:10px;"><button class="small secondary" id="btnComplCampetto" type="button">Vedi campetto ⚽</button></div>
+        <div class="row" style="margin-top:16px;justify-content:center;"><button class="secondary btn-campetto-big" id="btnComplCampetto" type="button">Vedi campetto ⚽</button></div>
       </div>
       <div class="card"><div id="complRosaTable"></div></div>
     </div>
@@ -1949,6 +1950,49 @@ let squadraCorrenteId = loadJSON(LS.squadraCorrenteId, null);
 
 function squadraCorrente(){ return squadre.find(s => s.id === squadraCorrenteId) || null; }
 function salvaSquadre(){ saveJSON(LS.squadre, squadre); }
+
+/* Riconciliazione automatica all'avvio: le rose 'squadre' vengono salvate in
+   localStorage al primo avvio e da li' in poi non vengono piu' rigenerate da
+   SQUADRE_INIZIALI (per non perdere le scelte fatte dai presidenti in
+   Completamento Rosa). Se pero' la base dati bloccata (draft/recompra) viene
+   corretta lato Claude (es. un giocatore dimenticato), i dispositivi che
+   hanno gia' inizializzato la rosa non vedrebbero mai la correzione.
+   Questa funzione, eseguita ad ogni avvio, aggiunge silenziosamente eventuali
+   giocatori bloccati mancanti (mai rimuove/modifica nulla fatto dal
+   presidente) e riallinea il crediti0 (budget di partenza, valore fisso). */
+function riconciliaSquadreBase(){
+  let modificato = false;
+  squadre.forEach(sq => {
+    const init = SQUADRE_INIZIALI.find(s => s.id === sq.id);
+    if(!init) return;
+    if(sq.crediti0 !== init.crediti0){
+      sq.crediti0 = init.crediti0;
+      modificato = true;
+    }
+    // Sync completo dei giocatori bloccati (draft/recompra) contro la base
+    // corrente: aggiunge quelli mancanti, corregge prezzo/fase di quelli gia'
+    // presenti, rimuove quelli non piu' presenti nella base bloccata. Non
+    // tocca MAI i giocatori aggiunti dal presidente via Completamento Rosa
+    // (quelli hanno origine !== 'draft').
+    const idsBloccatiInit = new Set(init.rosaBloccata.map(p => p.id));
+    init.rosaBloccata.forEach(pInit => {
+      const esistente = sq.rosa.find(p => p.id === pInit.id);
+      if(!esistente){
+        sq.rosa.push({ id: pInit.id, prezzo: pInit.prezzo, fase: pInit.fase, origine: 'draft' });
+        modificato = true;
+      } else if(esistente.prezzo !== pInit.prezzo || esistente.fase !== pInit.fase){
+        esistente.prezzo = pInit.prezzo;
+        esistente.fase = pInit.fase;
+        modificato = true;
+      }
+    });
+    const primaLen = sq.rosa.length;
+    sq.rosa = sq.rosa.filter(p => p.origine !== 'draft' || idsBloccatiInit.has(p.id));
+    if(sq.rosa.length !== primaLen) modificato = true;
+  });
+  if(modificato) salvaSquadre();
+}
+riconciliaSquadreBase();
 
 /* Sconto U23: applicabile solo a giocatori U23 con quotazione da listone (qam)
    sotto i 20 crediti, indipendentemente dal fatto che siano recompra o meno. */
