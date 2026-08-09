@@ -2240,7 +2240,7 @@ function renderRosaCompl(){
   `;
   const movimento = stats.n - stats.counts.POR;
   const limiti = [
-    { label: `Totale ${stats.n}/28-45`, ok: stats.n>=28 && stats.n<=45 },
+    { label: `Totale ${stats.n}/25-45`, ok: stats.n>=25 && stats.n<=45 },
     { label: `Portieri ${stats.counts.POR}/3-5`, ok: stats.counts.POR>=3 && stats.counts.POR<=5 },
     { label: `Movimento ${movimento}/22+`, ok: movimento>=22 },
   ];
