@@ -2988,7 +2988,7 @@ function renderRosaRip(){
     }
     html += `<tr>
       <td><div class="player-name">${p.nome}${badgeLock}</div><div class="player-meta">${p.squadra||''} · ${badgeRuolo(p.rm||p.r||'')}${isU23 ? '<span class="u23-badge">U23</span>' : ''}</div></td>
-      <td class="num">${fmtPrezzo(rec.prezzo)}</td>
+      <td class="num">${fmtPrezzo(p.qam)}</td>
       <td>${azione}</td>
     </tr>`;
   });
