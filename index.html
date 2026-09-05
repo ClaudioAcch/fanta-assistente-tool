@@ -2127,7 +2127,11 @@ if(!storageDisponibile){
   const storageBanner = document.getElementById('storageBanner');
   if(storageBanner) storageBanner.style.display = '';
 }
-sincronizzaListoneRemoto();
+// sincronizzaListoneRemoto() automatica disattivata (03.1): rimetteva dentro giocatori
+// ceduti/rimossi da un listone.json vecchio ancora sul repo, ad ogni apertura/refresh.
+// Il listone incorporato (DATA_INIZIALE) e' gia' la fonte di verita', riallineato ad ogni
+// avvio da riconciliaListoneBase() poco sopra. Resta disponibile solo su richiesta esplicita
+// tramite il bottone "Aggiorna listone" in Draft, per eventuali correzioni future via file.
 sincronizzaPresiRemoti();
 sincronizzaEtaRemota();
 
