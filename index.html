@@ -3037,7 +3037,13 @@ document.getElementById('btnRipTornaRosa').addEventListener('click', () => {
 });
 
 document.getElementById('btnRipAggiornaListone').addEventListener('click', () => {
-  document.getElementById('fileImport').click();
+  if(confirm('Aggiornare il listone alla versione base incorporata nell\'app? Rose, svincoli e acquisti gia\' fatti non verranno toccati.')){
+    listone = DATA_INIZIALE.slice();
+    saveJSON(LS.listone, listone);
+    toast('Listone aggiornato');
+    initRipSlider();
+    renderListoneRip();
+  }
 });
 document.getElementById('btnRipEsportaScelte').addEventListener('click', () => {
   document.getElementById('btnEsportaScelte').click();
